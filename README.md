@@ -5,7 +5,7 @@ Programming, web development more pro Back-End, html, css and I'm getting deeper
 - 💞️ I’m looking to collaborate on ...  development technological and add to the growth of solutions for companies and especially for people.
 - 📫 How to reach me ...
 - email : marcelo180886@gmail.com
-- phone : 555 (51) 985751801
+- phone : +55 (51) 985751801
 - linkedin : https://www.linkedin.com/in/marcelo-rodrigues-12724a1b7/
 
 <!---
