@@ -16,11 +16,11 @@ Presto muita atenção ao que os outros precisam.
 
 Sou responsável e transmito confiança.
 
- Dedicado ao trabalho, tenho dificuldade de ser reconhecido porque não gosto de ser o centro das atenções. 
+Dedicado ao trabalho, tenho dificuldade de ser reconhecido porque não gosto de ser o centro das atenções. 
 
- Tenho facilidade para me organizar e gosto de tudo bem feito, dentro das regras e no tempo determinado. 
+Tenho facilidade para me organizar e gosto de tudo bem feito, dentro das regras e no tempo determinado. 
  
- Sou do tipo que economiza, não gosto de desperdícios e me preocupo em ter dinheiro para o futuro.
+Sou do tipo que economiza, não gosto de desperdícios e me preocupo em ter dinheiro para o futuro.
 
 ## Habilidades
 - **Lógica:** Média de 90%
@@ -69,7 +69,7 @@ Sou responsável e transmito confiança.
   - Tipo: Presencial
   - Período: Março de 2003 - Novembro de 2007
 
-## Sobre Mim
+## Soft skil
 Sou uma pessoa proativa, que tem prazer em aprender e evoluir, sempre buscando novas oportunidades de aprendizado. 
 
 Tenho experiência com atendimento ao cliente e trabalho em equipe. 
