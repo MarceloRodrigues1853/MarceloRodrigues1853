@@ -78,9 +78,9 @@ Sou flexível e consigo me adaptar facilmente ao ambiente de trabalho.
 
 
 ## Links de Contato
-- GitHub: [Seu GitHub](https://github.com/MarceloRodrigues1853)
-- Instagram: [Seu Instagram](https://www.instagram.com/marcelo180886/)
-- Facebook: [Seu Facebook](https://www.facebook.com/marcelo.rodrigues.37819959)
+- GitHub: [MarceloRodrigues1853](https://github.com/MarceloRodrigues1853)
+- Instagram: [marcelo180886](https://www.instagram.com/marcelo180886/)
+- Facebook: [marcelo.rodrigues](https://www.facebook.com/marcelo.rodrigues.37819959)
 - [Perfil DIO](https://www.dio.me/users/Marcelo180886)
 - [E-mail](mailto:marcelo180886@gmail.com)
 - [LinkedIn](https://www.linkedin.com/in/marcelo-rodrigues-12724a1b7/)
