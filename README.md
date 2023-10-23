@@ -16,7 +16,7 @@ Presto muita atenção ao que os outros precisam.
 
 Sou responsável e transmito confiança.
 
-Dedicado ao trabalho, tenho dificuldade de ser reconhecido porque não gosto de ser o centro das atenções. 
+Dedicado ao trabalho, prcuro cumprir com com aquilo que me é proposto. 
 
 Tenho facilidade para me organizar e gosto de tudo bem feito, dentro das regras e no tempo determinado. 
  
