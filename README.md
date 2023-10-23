@@ -55,12 +55,6 @@ Sou do tipo que economiza, não gosto de desperdícios e me preocupo em ter dinh
   - Período: Desde março de 2021 até o momento
   - Funções: Transporte de material e alimentos
 
-## Voluntariado
-- **IGREJA UNIVERSAL DO REINO DE DEUS**
-  - Cargo: Voluntário
-  - Período: Desde outubro de 2022 até o momento
-  - Funções: Visitas a famílias de detentos, ajuda com cestas básicas
-
 ## Educação
 - **Ensino Médio Completo**
   - Escola: Gormercinda Dornelles da Fontoura
