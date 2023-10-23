@@ -70,7 +70,9 @@ Sou do tipo que economiza, não gosto de desperdícios e me preocupo em ter dinh
   - Período: Março de 2003 - Novembro de 2007
 
 ## Soft skil
-Sou uma pessoa proativa, que tem prazer em aprender e evoluir, sempre buscando novas oportunidades de aprendizado. 
+Sou uma pessoa proativa, que tem prazer em aprender e evoluir, sempre buscando novas oportunidades de aprendizado para promover tanto meu crescimento pessoal quanto o sucesso da empresa.
+
+Tenho habilidades necessárias tanto em front-end quanto em back-end, com um foco especializado no desenvolvimento de back-end
 
 Tenho experiência com atendimento ao cliente e trabalho em equipe. 
 
