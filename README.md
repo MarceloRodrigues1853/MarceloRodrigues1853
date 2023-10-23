@@ -98,7 +98,7 @@ Sou flexível e consigo me adaptar facilmente ao ambiente de trabalho.
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=MarceloRodrigues1853&theme=dark&bg_color=000&border_color=30A3DC&show_icons=true&icon_color=30A3DC&title_color=E94D5F&text_color=FFF)
 ![Top Langs](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=MarceloRodrigues1853&layout=compact&bg_color=000&border_color=30A3DC&title_color=E94D5F&text_color=FFF)
 
-## Meus Principais Desafios de Projeto na DIO
+## Meus Principais Desafios de Projeto
 - [Repo CV](https://github.com/MarceloRodrigues1853/cv)
 - [Repo Joy-aws](https://github.com/MarceloRodrigues1853/Joy-aws)
 
