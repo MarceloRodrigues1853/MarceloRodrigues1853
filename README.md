@@ -16,9 +16,7 @@ Presto muita atenção ao que os outros precisam.
 
 Sou responsável e transmito confiança.
 
-Dedicado ao trabalho, prcuro cumprir com com aquilo que me é proposto. 
-
-Tenho facilidade para me organizar e gosto de tudo bem feito, dentro das regras e no tempo determinado. 
+Dedicado ao trabalho, procuro cumprir com com aquilo que me é proposto. 
  
 Sou do tipo que economiza, não gosto de desperdícios e me preocupo em ter dinheiro para o futuro.
 
