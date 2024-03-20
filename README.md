@@ -6,7 +6,6 @@
 - **Gênero:** Masculino
 - **Estado Civil:** Casado
 - **Endereço de Email:** marcelo180886@gmail.com
-- **Telefone (WhatsApp):** (51) 98575-1801
 - **Endereço:** Portão/Rio Grande do Sul - CEP 93180000
 
 ### Personalidade
