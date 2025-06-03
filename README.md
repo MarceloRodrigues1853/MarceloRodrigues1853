@@ -1,84 +1,70 @@
 # MarceloRodrigues1853
 
-## Sobre Mim
-- **Nome:** Marcelo Dos Santos Rodrigues
-- **Data de Nascimento:** 18/08/1986 (37 anos)
-- **Gênero:** Masculino
-- **Estado Civil:** Casado
-- **Endereço de Email:** marcelo180886@gmail.com
-- **Endereço:** Portão/Rio Grande do Sul - CEP 93180000
+## 👨‍💻 Sobre Mim
+Sou estudante de **Ciência da Computação**, apaixonado por tecnologia, aprendizado contínuo e desafios que envolvam inovação. Atuo como desenvolvedor **Full Stack em formação**, com interesse em front-end, back-end e DevOps.
 
-### Personalidade
-- **CUIDADOR:** 
+Tenho explorado também o campo da **Segurança Cibernética**, **Linux** e **Computação em Nuvem**, desenvolvendo projetos práticos e aprimorando meu conhecimento técnico com cursos como a Certificação Profissional em Segurança Cibernética do Google e trilhas da Alura.
 
-Presto muita atenção ao que os outros precisam. 
+🔎 Ainda estou descobrindo qual caminho seguir dentro da tecnologia, mas tenho grande interesse em desenvolvimento de software, infraestrutura, automação e segurança.
 
-Sou responsável e transmito confiança.
+## 🧠 Personalidade
+- **CUIDADOR:**
+  - Presto muita atenção ao que os outros precisam.
+  - Sou responsável e transmito confiança.
+  - Dedicado ao trabalho, cumpro com aquilo que me é proposto.
+  - Prezo pela economia e organização financeira.
 
-Dedicado ao trabalho, procuro cumprir com com aquilo que me é proposto. 
- 
-Sou do tipo que economiza, não gosto de desperdícios e me preocupo em ter dinheiro para o futuro.
+## 💡 Soft Skills
+- Proatividade
+- Facilidade em aprender e evoluir
+- Trabalho em equipe
+- Comunicação
+- Adaptação ao ambiente de trabalho
+- Foco no resultado
 
-## Habilidades
+## 📊 Habilidades Gerais
 - **Lógica:** Média de 90%
 - **Português:** Média de 88%
 - **Inglês:** Média de 65%
 - **Conhecimentos Gerais:** Média de 80%
 
-### Conhecimentos
-#### Idiomas
-- Inglês
+## 🚀 Tecnologias e Conhecimentos
+### Linguagens & Ferramentas
+- HTML, CSS, JavaScript, TypeScript
+- Python, Java, Spring
+- React, Vue
+- Node.js, Express
+- SQL, MySQL
+- Git, GitHub
+- Linux, Terminal
+- Cloud (básico)
 
-#### Tecnologia
-- Excel
-- Word
-- PowerPoint
-- JavaScript
-- HTML
-- CSS
-- NodeJs
-- Github
-- Python
+### Escritório e Suporte
+- Excel, Word, PowerPoint
 
-#### Competências
-- Orientação de pessoas / Gerir pessoas
-- Iniciativa
-- Organização
-- Flexibilidade
-- Foco no resultado
+### Idiomas
+- Português (nativo)
+- Inglês (intermediário)
 
-## Experiência
-- **Autônomo**
-  - Cargo: Motoboy
+## 📚 Educação
+- **Ensino Médio Completo** – Gormercinda Dornelles da Fontoura (2003–2007)
+- **Bacharelado em Ciência da Computação** – Em andamento
+
+## 💼 Experiência Profissional
+- **Autônomo – Motorista**
   - Localização: Rio Grande do Sul
-  - Período: Desde março de 2021 até o momento
-  - Funções: Transporte de material e alimentos
+  - Desde março de 2021 até o momento
+  - Funções: Transporte e coleta de material 
 
-## Educação
-- **Ensino Médio Completo**
-  - Escola: Gormercinda Dornelles da Fontoura
-  - Tipo: Presencial
-  - Período: Março de 2003 - Novembro de 2007
-
-## Soft skil
-Sou uma pessoa proativa, que tem prazer em aprender e evoluir, sempre buscando novas oportunidades de aprendizado para promover tanto meu crescimento pessoal quanto o sucesso da empresa.
-
-Tenho habilidades necessárias tanto em front-end quanto em back-end, com um foco especializado no desenvolvimento de back-end
-
-Tenho experiência com atendimento ao cliente e trabalho em equipe. 
-
-Sou flexível e consigo me adaptar facilmente ao ambiente de trabalho.
-
-
-## Links de Contato
+## 🌐 Contato e Redes
 - GitHub: [MarceloRodrigues1853](https://github.com/MarceloRodrigues1853)
 - Instagram: [marcelo180886](https://www.instagram.com/marcelo180886/)
 - Facebook: [marcelo.rodrigues](https://www.facebook.com/marcelo.rodrigues.37819959)
-- [Perfil DIO](https://www.dio.me/users/Marcelo180886)
-- [E-mail](mailto:marcelo180886@gmail.com)
+- [Perfil na DIO](https://www.dio.me/users/Marcelo180886)
 - [LinkedIn](https://www.linkedin.com/in/marcelo-rodrigues-12724a1b7/)
+- [E-mail](mailto:marcelo180886@gmail.com)
 
-## Habilidades
+## 🛠️ Skills com Badges
 ![HTML5](https://img.shields.io/badge/HTML5-000?style=for-the-badge&logo=html5&logoColor=30A3DC)
 ![CSS3](https://img.shields.io/badge/CSS3-000?style=for-the-badge&logo=css3&logoColor=E94D5F)
 ![JavaScript](https://img.shields.io/badge/JavaScript-000?style=for-the-badge&logo=javascript&logoColor=30A3DC)
@@ -87,15 +73,17 @@ Sou flexível e consigo me adaptar facilmente ao ambiente de trabalho.
 ![Git](https://img.shields.io/badge/Git-000?style=for-the-badge&logo=git&logoColor=E94D5F)
 ![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=30A3DC)
 
-## GitHub Stats
+## 📈 GitHub Stats
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=MarceloRodrigues1853&theme=dark&bg_color=000&border_color=30A3DC&show_icons=true&icon_color=30A3DC&title_color=E94D5F&text_color=FFF)
 ![Top Langs](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=MarceloRodrigues1853&layout=compact&bg_color=000&border_color=30A3DC&title_color=E94D5F&text_color=FFF)
 
-## Meus Principais Desafios de Projeto
+## 🔗 Meus Principais Desafios de Projeto
 - [Repo CV](https://github.com/MarceloRodrigues1853/cv)
 - [Repo Joy-aws](https://github.com/MarceloRodrigues1853/Joy-aws)
 
-## Meus Principais Artigos na DIO
-- 24/07/2023: [Modelos de Serviço AWS](https://web.dio.me/articles/modelos-de-servico-aws?back=%2Farticles&page=1&order=oldest)
+## ✍️ Artigos Publicados na DIO
+- 📅 24/07/2023: [Modelos de Serviço AWS](https://web.dio.me/articles/modelos-de-servico-aws?back=%2Farticles&page=1&order=oldest)
+- 📅 17/08/2023: [Preciso de ajuda com esse erro de código!](https://web.dio.me/articles/preciso-de-ajuda-com-esse-erro-de-codigo?back=%2Farticles&page=1&order=oldest)
 
-- 17/08/2023: [Preciso de ajuda com esse erro de código!](https://web.dio.me/articles/preciso-de-ajuda-com-esse-erro-de-codigo?back=%2Farticles&page=1&order=oldest)
+---
+📌 *“Construindo, testando e aprendendo todos os dias.”*
