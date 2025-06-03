@@ -3,7 +3,7 @@
 ## 👨‍💻 Sobre Mim
 Sou estudante de **Ciência da Computação**, apaixonado por tecnologia, aprendizado contínuo e desafios que envolvam inovação. Atuo como desenvolvedor **Full Stack em formação**, com interesse em front-end, back-end e DevOps.
 
-Tenho explorado também o campo da **Segurança Cibernética**, **Linux** e **Computação em Nuvem**, desenvolvendo projetos práticos e aprimorando meu conhecimento técnico com cursos como a Certificação Profissional em Segurança Cibernética do Google e trilhas da Alura.
+Tenho explorado também o campo da **Segurança Cibernética**, **Linux** e **Computação em Nuvem**, desenvolvendo projetos práticos e aprimorando meu conhecimento técnico com cursos como a Certificação Profissional em Segurança Cibernética do Google e trilhas da Alura e da DIO.
 
 🔎 Ainda estou descobrindo qual caminho seguir dentro da tecnologia, mas tenho grande interesse em desenvolvimento de software, infraestrutura, automação e segurança.
 
