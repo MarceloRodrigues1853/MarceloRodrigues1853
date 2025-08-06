@@ -1,46 +1,26 @@
-name: Atualiza README do Perfil
+name: Atualizar README automático
 
 on:
   schedule:
-    - cron: "0 */12 * * *" # Executa a cada 12 horas
+    - cron: '0 */12 * * *' # Executa a cada 12 horas
   workflow_dispatch:
 
 jobs:
   update-readme:
-    name: Atualizar README automaticamente
     runs-on: ubuntu-latest
     steps:
-      - name: 🔄 Clonar repositório
+      - name: Checkout do repositório
         uses: actions/checkout@v4
 
-      - name: ⚙️ Configurar Node.js
-        uses: actions/setup-node@v4
+      - name: Atualizar README com repositórios recentes
+        uses: teoxoy/profile-readme-stats@v2
         with:
-          node-version: "20"
+          token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: 🧰 Instalar dependências
-        run: npm install -g github-profile-readme-generator
-
-      - name: 🛠️ Gerar novo README
+      - name: Commit e Push
         run: |
-          npx github-profile-readme-generator \
-            --username MarceloRodrigues1853 \
-            --repo-name MarceloRodrigues1853 \
-            --title "👋 Olá! Eu sou o Marcelo Rodrigues" \
-            --bio "Estudante de Ciência da Computação, apaixonado por tecnologia, automação e segurança!" \
-            --skills "JavaScript,Python,Java,HTML,CSS,MySQL,Linux,Cloud,Git,GitHub" \
-            --linkedin "marcelo-rodrigues-12724a1b7" \
-            --github "MarceloRodrigues1853" \
-            --medium "@" \
-            --stackoverflow "0" \
-            --devto "@" \
-            --twitter "@" \
-            --theme "dark"
-
-      - name: ✅ Commitar mudanças
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --global user.name 'github-actions'
+          git config --global user.email 'github-actions@github.com'
           git add README.md
-          git commit -m "🤖 Atualização automática do README"
+          git commit -m 'Atualização automática do README com dados dinâmicos' || echo "Nada para commitar"
           git push
