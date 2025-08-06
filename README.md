@@ -1,89 +1,103 @@
-# MarceloRodrigues1853
+# 👋 Olá, eu sou o Marcelo Rodrigues
 
-## 👨‍💻 Sobre Mim
-Sou estudante de **Ciência da Computação**, apaixonado por tecnologia, aprendizado contínuo e desafios que envolvam inovação. Atuo como desenvolvedor **Full Stack em formação**, com interesse em front-end, back-end e DevOps.
+![Visitantes](https://komarev.com/ghpvc/?username=MarceloRodrigues1853&color=30A3DC&style=flat)
 
-Tenho explorado também o campo da **Segurança Cibernética**, **Linux** e **Computação em Nuvem**, desenvolvendo projetos práticos e aprimorando meu conhecimento técnico com cursos como a Certificação Profissional em Segurança Cibernética do Google e trilhas da Alura e da DIO.
+Sou estudante de **Ciência da Computação**, apaixonado por tecnologia, aprendizado contínuo e desafios que envolvam inovação. Estou me desenvolvendo como **Full Stack Developer**, com interesse em front-end, back-end, DevOps, segurança da informação e cloud computing.
 
-🔎 Ainda estou descobrindo qual caminho seguir dentro da tecnologia, mas tenho grande interesse em desenvolvimento de software, infraestrutura, automação e segurança.
-
-## 🧠 Personalidade
-- **CUIDADOR:**
-  - Presto muita atenção ao que os outros precisam.
-  - Sou responsável e transmito confiança.
-  - Dedicado ao trabalho, cumpro com aquilo que me é proposto.
-  - Prezo pela economia e organização financeira.
-
-## 💡 Soft Skills
-- Proatividade
-- Facilidade em aprender e evoluir
-- Trabalho em equipe
-- Comunicação
-- Adaptação ao ambiente de trabalho
-- Foco no resultado
-
-## 📊 Habilidades Gerais
-- **Lógica:** Média de 90%
-- **Português:** Média de 88%
-- **Inglês:** Média de 65%
-- **Conhecimentos Gerais:** Média de 80%
-
-## 🚀 Tecnologias e Conhecimentos
-### Linguagens & Ferramentas
-- HTML, CSS, JavaScript, TypeScript
-- Python, Java, Spring
-- React, Vue
-- Node.js, Express
-- SQL, MySQL
-- Git, GitHub
-- Linux, Terminal
-- Cloud (básico)
-
-### Escritório e Suporte
-- Excel, Word, PowerPoint
-
-### Idiomas
-- Português (nativo)
-- Inglês (intermediário)
-
-## 📚 Educação
-- **Ensino Médio Completo** – Gormercinda Dornelles da Fontoura (2003–2007)
-- **Bacharelado em Ciência da Computação** – Em andamento
-
-## 💼 Experiência Profissional
-- **Autônomo – Motorista**
-  - Localização: Rio Grande do Sul
-  - Desde março de 2021 até o momento
-  - Funções: Transporte e coleta de material 
-
-## 🌐 Contato e Redes
-- GitHub: [MarceloRodrigues1853](https://github.com/MarceloRodrigues1853)
-- Instagram: [marcelo180886](https://www.instagram.com/marcelo180886/)
-- Facebook: [marcelo.rodrigues](https://www.facebook.com/marcelo.rodrigues.37819959)
-- [Perfil na DIO](https://www.dio.me/users/Marcelo180886)
-- [LinkedIn](https://www.linkedin.com/in/marcelo-rodrigues-12724a1b7/)
-- [E-mail](mailto:marcelo180886@gmail.com)
-
-## 🛠️ Skills com Badges
-![HTML5](https://img.shields.io/badge/HTML5-000?style=for-the-badge&logo=html5&logoColor=30A3DC)
-![CSS3](https://img.shields.io/badge/CSS3-000?style=for-the-badge&logo=css3&logoColor=E94D5F)
-![JavaScript](https://img.shields.io/badge/JavaScript-000?style=for-the-badge&logo=javascript&logoColor=30A3DC)
-![Python](https://img.shields.io/badge/Python-000?style=for-the-badge&logo=python&logoColor=E3D17F)
-![Java](https://img.shields.io/badge/Java-000?style=for-the-badge&logo=java&logoColor=007396)
-![Git](https://img.shields.io/badge/Git-000?style=for-the-badge&logo=git&logoColor=E94D5F)
-![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=30A3DC)
-
-## 📈 GitHub Stats
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=MarceloRodrigues1853&theme=dark&bg_color=000&border_color=30A3DC&show_icons=true&icon_color=30A3DC&title_color=E94D5F&text_color=FFF)
-![Top Langs](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=MarceloRodrigues1853&layout=compact&bg_color=000&border_color=30A3DC&title_color=E94D5F&text_color=FFF)
-
-## 🔗 Meus Principais Desafios de Projeto
-- [Repo CV](https://github.com/MarceloRodrigues1853/cv)
-- [Repo Joy-aws](https://github.com/MarceloRodrigues1853/Joy-aws)
-
-## ✍️ Artigos Publicados na DIO
-- 📅 24/07/2023: [Modelos de Serviço AWS](https://web.dio.me/articles/modelos-de-servico-aws?back=%2Farticles&page=1&order=oldest)
-- 📅 17/08/2023: [Preciso de ajuda com esse erro de código!](https://web.dio.me/articles/preciso-de-ajuda-com-esse-erro-de-codigo?back=%2Farticles&page=1&order=oldest)
+Tenho explorado as áreas de:
+- **Segurança Cibernética**
+- **Linux**
+- **Computação em Nuvem**
+- **Automação com Ansible**
+- **Monitoramento com Prometheus/ELK**
 
 ---
-📌 *“Construindo, testando e aprendendo todos os dias.”*
+
+## 🧠 Sobre Mim
+
+- 🎯 Perfil: **Cuidador**
+  - Presto atenção nas necessidades das pessoas
+  - Sou confiável e responsável
+  - Focado em economia, organização e entrega
+- 📘 Soft Skills:
+  - Proatividade
+  - Trabalho em equipe
+  - Comunicação
+  - Adaptação
+  - Foco em resultados
+
+---
+
+## 🚀 Tecnologias
+
+### 👨‍💻 Desenvolvimento
+![HTML5](https://img.shields.io/badge/HTML5-000?style=flat&logo=html5&logoColor=30A3DC)
+![CSS3](https://img.shields.io/badge/CSS3-000?style=flat&logo=css3&logoColor=E94D5F)
+![JavaScript](https://img.shields.io/badge/JavaScript-000?style=flat&logo=javascript&logoColor=FFD43B)
+![TypeScript](https://img.shields.io/badge/TypeScript-000?style=flat&logo=typescript)
+![Python](https://img.shields.io/badge/Python-000?style=flat&logo=python&logoColor=3776AB)
+![Java](https://img.shields.io/badge/Java-000?style=flat&logo=java)
+![Spring](https://img.shields.io/badge/Spring-000?style=flat&logo=spring)
+![Node.js](https://img.shields.io/badge/Node.js-000?style=flat&logo=node.js)
+![Express](https://img.shields.io/badge/Express-000?style=flat&logo=express)
+![React](https://img.shields.io/badge/React-000?style=flat&logo=react)
+![Vue.js](https://img.shields.io/badge/Vue.js-000?style=flat&logo=vue.js)
+![MySQL](https://img.shields.io/badge/MySQL-000?style=flat&logo=mysql)
+![Git](https://img.shields.io/badge/Git-000?style=flat&logo=git)
+![GitHub](https://img.shields.io/badge/GitHub-000?style=flat&logo=github)
+
+### 🖥️ Outros
+- Linux, Bash, WSL
+- Prometheus, Grafana, ELK Stack
+- Ansible, Docker
+- Cloud: OCI / AWS (básico)
+
+---
+
+## 📈 Estatísticas do GitHub
+
+![Marcelo GitHub Stats](https://github-readme-stats.vercel.app/api?username=MarceloRodrigues1853&show_icons=true&theme=tokyonight&border_radius=10)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=MarceloRodrigues1853&layout=compact&theme=tokyonight&border_radius=10)
+
+---
+
+## 📦 Repositórios Recentes
+
+<!--START_SECTION:recentrepos-->
+<!-- Essa seção será automaticamente preenchida pelo workflow -->
+<!--END_SECTION:recentrepos-->
+
+---
+
+## 📚 Educação
+
+- 🎓 Ensino Médio – Gormercinda Dornelles da Fontoura
+- 🎓 Bacharelado em Ciência da Computação – *Em andamento*
+
+---
+
+## 💼 Experiência Profissional
+
+- **Motorista Autônomo**
+  - Desde 2021 – RS
+  - Transporte e coleta de materiais
+
+---
+
+## ✍️ Artigos na DIO
+
+- 📅 24/07/2023: [Modelos de Serviço AWS](https://web.dio.me/articles/modelos-de-servico-aws)
+- 📅 17/08/2023: [Preciso de ajuda com esse erro de código!](https://web.dio.me/articles/preciso-de-ajuda-com-esse-erro-de-codigo)
+
+---
+
+## 🌐 Contato
+
+- GitHub: [MarceloRodrigues1853](https://github.com/MarceloRodrigues1853)
+- [LinkedIn](https://www.linkedin.com/in/marcelo-rodrigues-12724a1b7/)
+- [Instagram](https://www.instagram.com/marcelo180886/)
+- [E-mail](mailto:marcelo180886@gmail.com)
+
+---
+
+📌 *"Construindo, testando e aprendendo todos os dias."*
