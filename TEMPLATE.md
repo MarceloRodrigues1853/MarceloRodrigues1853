@@ -116,11 +116,7 @@ Tenho explorado as áreas de:
 
 ## 🌐 Contato
 
-- GitHub: [MarceloRodrigues1853](https://github.com/MarceloRodrigues1853)
-- [LinkedIn](https://www.linkedin.com/in/marcelo-rodrigues-12724a1b7/)
-- [Instagram](https://www.instagram.com/marcelo180886/)
+- GitHub: [MarceloRodrigues1853](https://github.com/MarceloRodrigues1853)  
+- [LinkedIn](https://www.linkedin.com/in/marcelo-rodrigues-12724a1b7/)  
+- [Instagram](https://www.instagram.com/marcelo180886/)  
 - [E-mail](mailto:marcelo180886@gmail.com)
-
----
-
-📌 *"Construindo, testando e aprendendo todos os dias."*
