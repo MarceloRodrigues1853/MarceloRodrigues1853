@@ -8,28 +8,21 @@
 [![E-mail](https://img.shields.io/badge/Email-000?style=flat&logo=gmail)](mailto:marcelo180886@gmail.com)
 
 Sou estudante de **Ciência da Computação**, apaixonado por tecnologia, aprendizado contínuo e desafios que envolvam inovação.  
-Estou me desenvolvendo como **Full Stack Developer**, com interesse em front-end, back-end, DevOps, segurança da informação e cloud computing.
-
-Tenho explorado as áreas de:
-- **Segurança Cibernética**
-- **Linux**
-- **Computação em Nuvem**
-- **Automação com Ansible**
-- **Monitoramento com Prometheus/ELK**
+Desenvolvedor **Full Stack** em formação, com interesse em front-end, back-end, DevOps, segurança da informação e computação em nuvem.
 
 ---
 
 ## 🧠 Sobre Mim
 
-- 🎯 Perfil: **Cuidador**
-  - Presto atenção nas necessidades das pessoas
-  - Sou confiável e responsável
+- 🎯 **Perfil**: Cuidador  
+  - Presto atenção às necessidades das pessoas  
+  - Sou confiável e responsável  
   - Focado em economia, organização e entrega
-- 📘 Soft Skills:
-  - Proatividade
-  - Trabalho em equipe
-  - Comunicação
-  - Adaptação
+- 📘 **Soft Skills**:  
+  - Proatividade  
+  - Trabalho em equipe  
+  - Comunicação  
+  - Adaptação  
   - Foco em resultados
 
 ---
@@ -66,13 +59,13 @@ Tenho explorado as áreas de:
 <tr>
 <td>
 
-- Idade da conta: **{{ ACCOUNT_AGE }}** anos  
-- Repositórios: **{{ REPOSITORIES }}**  
-- Commits: **{{ COMMITS }}**  
-- Stars recebidas: **{{ STARS }}**  
-- Issues: **{{ ISSUES }}**  
-- PRs: **{{ PULL_REQUESTS }}**  
-- Reviews: **{{ CODE_REVIEWS }}**
+**Idade da conta:** {{ ACCOUNT_AGE }} anos  
+**Repositórios:** {{ REPOSITORIES }}  
+**Commits:** {{ COMMITS }}  
+**Stars recebidas:** {{ STARS }}  
+**Issues:** {{ ISSUES }}  
+**PRs:** {{ PULL_REQUESTS }}  
+**Reviews:** {{ CODE_REVIEWS }}
 
 </td>
 <td>
@@ -100,23 +93,24 @@ Tenho explorado as áreas de:
 ---
 
 ## 📚 Educação
-
-- 🎓 Ensino Médio – Gormercinda Dornelles da Fontoura
+- 🎓 Ensino Médio – Gormercinda Dornelles da Fontoura  
 - 🎓 Bacharelado em Ciência da Computação – *Em andamento*
 
 ---
 
 ## 💼 Experiência Profissional
-
-- **Motorista Autônomo**
-  - Desde 2021 – RS
-  - Transporte e coleta de materiais
+- **Motorista Autônomo**  
+  *Desde 2021 – RS*  
+  Transporte e coleta de materiais
 
 ---
 
 ## 🌐 Contato
-
 - GitHub: [MarceloRodrigues1853](https://github.com/MarceloRodrigues1853)  
 - [LinkedIn](https://www.linkedin.com/in/marcelo-rodrigues-12724a1b7/)  
 - [Instagram](https://www.instagram.com/marcelo180886/)  
 - [E-mail](mailto:marcelo180886@gmail.com)
+
+---
+
+📌 *"Construindo, testando e aprendendo todos os dias."*
