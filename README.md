@@ -56,16 +56,23 @@ Tenho explorado as áreas de:
 
 ## 📈 Estatísticas do GitHub
 
-![Marcelo GitHub Stats](https://github-readme-stats.vercel.app/api?username=MarceloRodrigues1853&show_icons=true&theme=tokyonight&border_radius=10)
+- Idade da conta: **2** anos
+- Repositórios: **63**
+- Commits: **669**
+- Issues: **0**
+- PRs: **1**
+- Reviews: **0**
+- Stars recebidas: **9**
+
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=MarceloRodrigues1853&layout=compact&theme=tokyonight&border_radius=10)
 
 ---
 
 ## 📦 Repositórios Recentes
 
-<!--START_SECTION:recentrepos-->
-<!-- Essa seção será automaticamente preenchida pelo workflow -->
-<!--END_SECTION:recentrepos-->
+{{ REPOSITORIES_TEMPLATE_START:max=5 }}
+- [{{ REPO_NAME }}]({{ REPO_URL }}) — ⭐ {{ REPO_STARS }} • Último commit em {{ REPO_UPDATED }}
+{{ REPOSITORIES_TEMPLATE_END }}
 
 ---
 
@@ -81,13 +88,6 @@ Tenho explorado as áreas de:
 - **Motorista Autônomo**
   - Desde 2021 – RS
   - Transporte e coleta de materiais
-
----
-
-## ✍️ Artigos na DIO
-
-- 📅 24/07/2023: [Modelos de Serviço AWS](https://web.dio.me/articles/modelos-de-servico-aws)
-- 📅 17/08/2023: [Preciso de ajuda com esse erro de código!](https://web.dio.me/articles/preciso-de-ajuda-com-esse-erro-de-codigo)
 
 ---
 
