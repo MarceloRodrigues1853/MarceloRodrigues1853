@@ -41,15 +41,32 @@ jobs:
             skip==0 {print}
           ' README.md > README.tmp && mv README.tmp README.md
 
-      - name: Injetar tecnologias por uso
+      - name: Injetar tecnologias por uso (tratamento de erro)
         run: |
           echo "🔄 Calculando tecnologias por uso..."
-          LANGS=$(curl -s -H "Authorization: token ${{ secrets.USER_TOKEN }}" \
-            "https://api.github.com/users/MarceloRodrigues1853/repos?per_page=100" | \
-            jq -r '.[].languages_url' | \
-            xargs -n1 curl -s -H "Authorization: token ${{ secrets.USER_TOKEN }}" | \
-            jq -s 'add' | jq 'to_entries|sort_by(.value)|reverse' | \
-            jq -r '.[:6] | .[] | "- \(.key) — \((.value / (reduce .[].value as $v (0; . + $v)) * 100) | tostring | split(".")[0])%"')
+          LANG_URLS=$(curl -s -H "Authorization: token ${{ secrets.USER_TOKEN }}" \
+            "https://api.github.com/users/MarceloRodrigues1853/repos?per_page=100" | jq -r '.[].languages_url')
+
+          if [ -z "$LANG_URLS" ]; then
+            echo "⚠️ Nenhum dado de linguagem encontrado."
+            LANGS="- Nenhuma linguagem detectada"
+          else
+            # Junta todos os JSONs de linguagens, ignora vazios e soma valores
+            LANGS_JSON=$(for url in $LANG_URLS; do
+              DATA=$(curl -s -H "Authorization: token ${{ secrets.USER_TOKEN }}" "$url")
+              if [ "$DATA" != "{}" ] && [ -n "$DATA" ]; then
+                echo "$DATA"
+              fi
+            done | jq -s 'add')
+
+            TOTAL=$(echo "$LANGS_JSON" | jq '[.[]] | add')
+            if [ "$TOTAL" -eq 0 ] 2>/dev/null; then
+              LANGS="- Nenhuma linguagem detectada"
+            else
+              LANGS=$(echo "$LANGS_JSON" | jq --arg total "$TOTAL" -r \
+                'to_entries | sort_by(-.value) | .[:6] | map("- \(.key) — \((.value / ($total | tonumber) * 100) | floor)%") | .[]')
+            fi
+          fi
 
           awk -v langs="$LANGS" '
             /{{ LANGUAGE_TEMPLATE_START/ {print; print langs; skip=1; next}
@@ -65,4 +82,6 @@ jobs:
             git add .
             git commit -m "Atualizando README automático"
             git push
+          else
+            echo "✅ Nenhuma mudança detectada."
           fi
