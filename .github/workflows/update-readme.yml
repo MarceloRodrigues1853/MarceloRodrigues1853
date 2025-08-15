@@ -26,6 +26,7 @@ jobs:
         with:
           token: ${{ secrets.USER_TOKEN }}
           template: ./TEMPLATE.md
+          includeForks: false
 
       - name: Commit e Push se houve mudanças
         run: |

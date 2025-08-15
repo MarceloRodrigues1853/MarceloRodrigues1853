@@ -85,6 +85,13 @@ Tenho explorado as áreas de:
 
 ---
 
+## 🧪 Tecnologias por uso
+{{ LANGUAGE_TEMPLATE_START:max=6 }}
+- {{ LANGUAGE_NAME }} — {{ LANGUAGE_PERCENT }}%
+{{ LANGUAGE_TEMPLATE_END }}
+
+---
+
 ## 📦 Repositórios Recentes
 {{ REPOSITORIES_TEMPLATE_START:max=5 }}
 - [{{ REPO_NAME }}]({{ REPO_URL }}) — ⭐ {{ REPO_STARS }} • {{ REPO_DESCRIPTION }} • Último commit: {{ REPO_UPDATED }}
