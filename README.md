@@ -2,7 +2,13 @@
 
 ![Visitantes](https://komarev.com/ghpvc/?username=MarceloRodrigues1853&color=30A3DC&style=flat)
 
-Sou estudante de **Ciência da Computação**, apaixonado por tecnologia, aprendizado contínuo e desafios que envolvam inovação. Estou me desenvolvendo como **Full Stack Developer**, com interesse em front-end, back-end, DevOps, segurança da informação e cloud computing.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-000?style=flat&logo=linkedin&logoColor=0A66C2)](https://www.linkedin.com/in/marcelo-rodrigues-12724a1b7/)
+[![GitHub](https://img.shields.io/badge/GitHub-000?style=flat&logo=github)](https://github.com/MarceloRodrigues1853)
+[![Instagram](https://img.shields.io/badge/Instagram-000?style=flat&logo=instagram)](https://www.instagram.com/marcelo180886/)
+[![E-mail](https://img.shields.io/badge/Email-000?style=flat&logo=gmail)](mailto:marcelo180886@gmail.com)
+
+Sou estudante de **Ciência da Computação**, apaixonado por tecnologia, aprendizado contínuo e desafios que envolvam inovação.  
+Estou me desenvolvendo como **Full Stack Developer**, com interesse em front-end, back-end, DevOps, segurança da informação e cloud computing.
 
 Tenho explorado as áreas de:
 - **Segurança Cibernética**
@@ -56,22 +62,32 @@ Tenho explorado as áreas de:
 
 ## 📈 Estatísticas do GitHub
 
-- Idade da conta: **2** anos
-- Repositórios: **63**
-- Commits: **669**
-- Issues: **0**
-- PRs: **1**
+<table>
+<tr>
+<td>
+
+- Idade da conta: **2** anos  
+- Repositórios: **63**  
+- Commits: **671**  
+- Stars recebidas: **9**  
+- Issues: **0**  
+- PRs: **1**  
 - Reviews: **0**
-- Stars recebidas: **9**
+
+</td>
+<td>
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=MarceloRodrigues1853&layout=compact&theme=tokyonight&border_radius=10)
+
+</td>
+</tr>
+</table>
 
 ---
 
 ## 📦 Repositórios Recentes
-
 {{ REPOSITORIES_TEMPLATE_START:max=5 }}
-- [{{ REPO_NAME }}]({{ REPO_URL }}) — ⭐ {{ REPO_STARS }} • Último commit em {{ REPO_UPDATED }}
+- [{{ REPO_NAME }}]({{ REPO_URL }}) — ⭐ {{ REPO_STARS }} • {{ REPO_DESCRIPTION }} • Último commit: {{ REPO_UPDATED }}
 {{ REPOSITORIES_TEMPLATE_END }}
 
 ---
