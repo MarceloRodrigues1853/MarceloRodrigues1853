@@ -2,25 +2,39 @@ name: Atualizar README automático
 
 on:
   schedule:
-    - cron: '0 */12 * * *' # Executa a cada 12 horas
+    - cron: '0 */12 * * *' # executa a cada 12 horas
   workflow_dispatch:
+
+concurrency:
+  group: profile-readme
+  cancel-in-progress: true
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
     steps:
-      - name: Checkout do repositório
+      - name: Checkout
         uses: actions/checkout@v4
-
-      - name: Atualizar README com repositórios recentes
-        uses: teoxoy/profile-readme-stats@v2
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
 
-      - name: Commit e Push
+      - name: Gerar README (stats do perfil)
+        uses: teoxoy/profile-readme-stats@v3
+        with:
+          token: ${{ secrets.USER_TOKEN }}
+          template: ./TEMPLATE.md
+
+      - name: Commit e Push se houve mudanças
         run: |
-          git config --global user.name 'github-actions'
-          git config --global user.email 'github-actions@github.com'
-          git add README.md
-          git commit -m 'Atualização automática do README com dados dinâmicos' || echo "Nada para commitar"
-          git push
+          if [[ -n "$(git status --porcelain)" ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add README.md
+            git commit -m "Update README (stats automáticas)"
+            git push
+          else
+            echo "Nada para commitar"
+          fi
