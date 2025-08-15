@@ -28,6 +28,35 @@ jobs:
           template: ./TEMPLATE.md
           includeForks: false
 
+      - name: Injetar repositórios recentes
+        run: |
+          echo "🔄 Buscando repositórios recentes..."
+          REPOS=$(curl -s -H "Authorization: token ${{ secrets.USER_TOKEN }}" \
+            "https://api.github.com/users/MarceloRodrigues1853/repos?sort=updated&per_page=5" |
+            jq -r '.[] | "- [\(.name)](\(.html_url)) — ⭐ \(.stargazers_count) • \(.description // "Sem descrição") • Último commit: \(.updated_at | split("T")[0])"')
+
+          awk -v repos="$REPOS" '
+            /{{ REPOSITORIES_TEMPLATE_START/ {print; print repos; skip=1; next}
+            /{{ REPOSITORIES_TEMPLATE_END/ {skip=0}
+            skip==0 {print}
+          ' README.md > README.tmp && mv README.tmp README.md
+
+      - name: Injetar tecnologias por uso
+        run: |
+          echo "🔄 Calculando tecnologias por uso..."
+          LANGS=$(curl -s -H "Authorization: token ${{ secrets.USER_TOKEN }}" \
+            "https://api.github.com/users/MarceloRodrigues1853/repos?per_page=100" | \
+            jq -r '.[].languages_url' | \
+            xargs -n1 curl -s -H "Authorization: token ${{ secrets.USER_TOKEN }}" | \
+            jq -s 'add' | jq 'to_entries|sort_by(.value)|reverse' | \
+            jq -r '.[:6] | .[] | "- \(.key) — \((.value / (reduce .[].value as $v (0; . + $v)) * 100) | tostring | split(".")[0])%"')
+
+          awk -v langs="$LANGS" '
+            /{{ LANGUAGE_TEMPLATE_START/ {print; print langs; skip=1; next}
+            /{{ LANGUAGE_TEMPLATE_END/ {skip=0}
+            skip==0 {print}
+          ' README.md > README.tmp && mv README.tmp README.md
+
       - name: Commit e Push se houve mudanças
         run: |
           if [[ -n "$(git status --porcelain)" ]]; then

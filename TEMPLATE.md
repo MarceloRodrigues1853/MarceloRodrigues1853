@@ -106,10 +106,10 @@ Desenvolvedor **Full Stack** em formação, com interesse em front-end, back-end
 ---
 
 ## 🌐 Contato
-- GitHub: [MarceloRodrigues1853](https://github.com/MarceloRodrigues1853)  
-- [LinkedIn](https://www.linkedin.com/in/marcelo-rodrigues-12724a1b7/)  
-- [Instagram](https://www.instagram.com/marcelo180886/)  
-- [E-mail](mailto:marcelo180886@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-000?style=flat&logo=linkedin&logoColor=0A66C2)](https://www.linkedin.com/in/marcelo-rodrigues-12724a1b7/)
+[![GitHub](https://img.shields.io/badge/GitHub-000?style=flat&logo=github)](https://github.com/MarceloRodrigues1853)
+[![Instagram](https://img.shields.io/badge/Instagram-000?style=flat&logo=instagram)](https://www.instagram.com/marcelo180886/)
+[![E-mail](https://img.shields.io/badge/Email-000?style=flat&logo=gmail)](mailto:marcelo180886@gmail.com)
 
 ---
 
