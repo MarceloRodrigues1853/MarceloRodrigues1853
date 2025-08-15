@@ -68,7 +68,7 @@ Tenho explorado as áreas de:
 
 - Idade da conta: **2** anos  
 - Repositórios: **63**  
-- Commits: **671**  
+- Commits: **673**  
 - Stars recebidas: **9**  
 - Issues: **0**  
 - PRs: **1**  
@@ -82,6 +82,16 @@ Tenho explorado as áreas de:
 </td>
 </tr>
 </table>
+
+---
+
+## 🧪 Tecnologias por uso
+- HTML — 85.3%
+- Java — 6.8%
+- CSS — 3.2%
+- JavaScript — 2.7%
+- PHP — 0.8%
+- Other — 0.8%
 
 ---
 
