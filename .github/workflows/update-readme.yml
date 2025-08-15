@@ -2,7 +2,7 @@ name: Atualizar README automático
 
 on:
   schedule:
-    - cron: '0 */12 * * *' # executa a cada 12 horas
+    - cron: '0 12 * * *' # executa todo dia às 09:00 no horário de Brasília (12:00 UTC)
   workflow_dispatch:
 
 concurrency:
