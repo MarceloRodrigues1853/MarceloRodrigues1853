@@ -2,49 +2,63 @@ name: Atualizar README automático
 
 on:
   schedule:
-    # Executa todos os dias às 00h UTC
-    - cron: "0 0 * * *"
+    - cron: '0 12 * * *' # Executa todo dia às 09:00 Brasília (12:00 UTC)
   workflow_dispatch:
+
+concurrency:
+  group: profile-readme
+  cancel-in-progress: true
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
-      # 1️⃣ Baixa o código atual do repositório
       - name: Checkout do repositório
         uses: actions/checkout@v4
 
-      # 2️⃣ Configura Node.js (necessário para rodar script JS de formatação)
-      - name: Configurar Node.js
-        uses: actions/setup-node@v4
+      - name: Gerar README (stats do perfil)
+        uses: teoxoy/profile-readme-stats@v3
         with:
-          node-version: '20'
+          token: ${{ secrets.USER_TOKEN }}
+          template: ./TEMPLATE.md
+          includeForks: false
 
-      # 3️⃣ Instala dependências (se houver)
-      - name: Instalar dependências
-        run: npm install
-
-      # 4️⃣ Gera estatísticas e substitui blocos
-      - name: Gerar estatísticas e atualizar README
+      - name: Injetar repositórios recentes
         run: |
-          echo "🔄 Buscando repositórios recentes..."
-          # Aqui você pode rodar a action de stats, por exemplo:
-          npx profile-readme-stats --max-repos 5 > repos_temp.txt
+          REPOS=$(curl -s -H "Authorization: token ${{ secrets.USER_TOKEN }}" \
+            "https://api.github.com/users/MarceloRodrigues1853/repos?sort=updated&per_page=5" |
+            jq -r '.[] | "- [\(.name)](\(.html_url)) — ⭐ \(.stargazers_count) • \(.description // "Sem descrição") • Último commit: \(.updated_at | split("T")[0])"')
+          sed -i "/{{ REPOSITORIES_TEMPLATE_START/,/{{ REPOSITORIES_TEMPLATE_END }}/c\\$REPOS" README.md
 
-          echo "🔄 Inserindo lista no README..."
-          # Remove qualquer bloco entre os marcadores e substitui pela lista final
-          sed -i "/{{ REPOSITORIES_TEMPLATE_START/,/{{ REPOSITORIES_TEMPLATE_END }}/c\$(cat repos_temp.txt)" README.md
-          
-
-          echo "✅ Lista de repositórios atualizada sem placeholders"
-
-      # 5️⃣ Gera commit e envia para o GitHub
-      - name: Commit e Push se houver mudanças
+      - name: Injetar tecnologias por uso
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          LANG_URLS=$(curl -s -H "Authorization: token ${{ secrets.USER_TOKEN }}" \
+            "https://api.github.com/users/MarceloRodrigues1853/repos?per_page=100" | jq -r '.[].languages_url')
+          if [ -z "$LANG_URLS" ]; then
+            LANGS="- Nenhuma linguagem detectada"
+          else
+            LANGS_JSON=$(for url in $LANG_URLS; do
+              DATA=$(curl -s -H "Authorization: token ${{ secrets.USER_TOKEN }}" "$url")
+              if [ "$DATA" != "{}" ] && [ -n "$DATA" ]; then echo "$DATA"; fi
+            done | jq -s 'add')
+            TOTAL=$(echo "$LANGS_JSON" | jq '[.[]] | add')
+            if [ "$TOTAL" -eq 0 ] 2>/dev/null; then
+              LANGS="- Nenhuma linguagem detectada"
+            else
+              LANGS=$(echo "$LANGS_JSON" | jq --arg total "$TOTAL" -r \
+                'to_entries | sort_by(-.value) | .[:6] | map("- \(.key) — \((.value / ($total | tonumber) * 100) | floor)%") | .[]')
+            fi
+          fi
+          sed -i "/{{ LANGUAGE_TEMPLATE_START/,/{{ LANGUAGE_TEMPLATE_END }}/c\\$LANGS" README.md
+
+      - name: Commit e Push se houve mudanças
+        run: |
           if [[ -n "$(git status --porcelain)" ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add README.md
             git commit -m "Atualizando README automático"
             git push
