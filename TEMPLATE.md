@@ -86,9 +86,9 @@ Desenvolvedor **Full Stack** em formação, com interesse em front-end, back-end
 ---
 
 ## 📦 Repositórios Recentes
-{{ REPOSITORIES_TEMPLATE_START:max=5 }}
++ <!-- REPOSITORIES_TEMPLATE_START:max=5 -->
 - [{{ REPO_NAME }}]({{ REPO_URL }}) — ⭐ {{ REPO_STARS }} • {{ REPO_DESCRIPTION }} • Último commit: {{ REPO_UPDATED }}
-{{ REPOSITORIES_TEMPLATE_END }}
++ <!-- REPOSITORIES_TEMPLATE_END -->
 
 ---
 
