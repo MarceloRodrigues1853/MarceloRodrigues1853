@@ -31,12 +31,18 @@ jobs:
           REPOS=$(curl -s -H "Authorization: token ${{ secrets.USER_TOKEN }}" \
             "https://api.github.com/users/MarceloRodrigues1853/repos?sort=updated&per_page=5" |
             jq -r '.[] | "- [\(.name)](\(.html_url)) — ⭐ \(.stargazers_count) • \(.description // "Sem descrição") • Último commit: \(.updated_at | split("T")[0])"')
-          sed -i "/{{ REPOSITORIES_TEMPLATE_START/,/{{ REPOSITORIES_TEMPLATE_END }}/c\\$REPOS" README.md
+
+          # Escapar &, / e \ para não quebrar o sed
+          ESCAPED=$(printf '%s\n' "$REPOS" | sed 's/[&/\\]/\\&/g')
+
+          # Usando delimitador | para evitar conflito com /
+          sed -i "|{{ REPOSITORIES_TEMPLATE_START}},|{{ REPOSITORIES_TEMPLATE_END}}|c\\$ESCAPED" README.md
 
       - name: Injetar tecnologias por uso
         run: |
           LANG_URLS=$(curl -s -H "Authorization: token ${{ secrets.USER_TOKEN }}" \
             "https://api.github.com/users/MarceloRodrigues1853/repos?per_page=100" | jq -r '.[].languages_url')
+
           if [ -z "$LANG_URLS" ]; then
             LANGS="- Nenhuma linguagem detectada"
           else
@@ -44,6 +50,7 @@ jobs:
               DATA=$(curl -s -H "Authorization: token ${{ secrets.USER_TOKEN }}" "$url")
               if [ "$DATA" != "{}" ] && [ -n "$DATA" ]; then echo "$DATA"; fi
             done | jq -s 'add')
+
             TOTAL=$(echo "$LANGS_JSON" | jq '[.[]] | add')
             if [ "$TOTAL" -eq 0 ] 2>/dev/null; then
               LANGS="- Nenhuma linguagem detectada"
@@ -52,7 +59,10 @@ jobs:
                 'to_entries | sort_by(-.value) | .[:6] | map("- \(.key) — \((.value / ($total | tonumber) * 100) | floor)%") | .[]')
             fi
           fi
-          sed -i "/{{ LANGUAGE_TEMPLATE_START/,/{{ LANGUAGE_TEMPLATE_END }}/c\\$LANGS" README.md
+
+          ESCAPED_LANGS=$(printf '%s\n' "$LANGS" | sed 's/[&/\\]/\\&/g')
+
+          sed -i "|{{ LANGUAGE_TEMPLATE_START}},|{{ LANGUAGE_TEMPLATE_END}}|c\\$ESCAPED_LANGS" README.md
 
       - name: Commit e Push se houve mudanças
         run: |
