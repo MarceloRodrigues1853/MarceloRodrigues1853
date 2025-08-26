@@ -79,10 +79,10 @@ Desenvolvedor **Full Stack** em formação, com interesse em front-end, back-end
 ---
 
 ## 🧪 Tecnologias por uso
-- HTML — 85.2%
-- Java — 6.8%
+- HTML — 84.3%
+- Java — 7.8%
 - CSS — 3.2%
-- JavaScript — 2.8%
+- JavaScript — 2.7%
 - PHP — 0.8%
 - Other — 0.8%
 
@@ -90,8 +90,8 @@ Desenvolvedor **Full Stack** em formação, com interesse em front-end, back-end
 
 ## 📦 Repositórios Recentes
 {{ REPOSITORIES_TEMPLATE_START:max=6 }}
-- [MarceloRodrigues1853](https://github.com/MarceloRodrigues1853/MarceloRodrigues1853) — ⭐ 0 • Config files for my GitHub profile. • Último commit: 2025-08-24
-- [petcare-Hackathon_ONE](https://github.com/MarceloRodrigues1853/petcare-Hackathon_ONE) — ⭐ 0 • Projeto desenvolvido exclusivamente para fins educacionais no Hackathon UM – Oracle Next Education. • Último commit: 2025-08-23
+- [petcare-Hackathon_ONE](https://github.com/MarceloRodrigues1853/petcare-Hackathon_ONE) — ⭐ 0 • Projeto desenvolvido exclusivamente para fins educacionais no Hackathon UM – Oracle Next Education. • Último commit: 2025-08-25
+- [MarceloRodrigues1853](https://github.com/MarceloRodrigues1853/MarceloRodrigues1853) — ⭐ 0 • Config files for my GitHub profile. • Último commit: 2025-08-25
 - [Estrategia_ResolucaoDeProblema_Debuggin_In_Cloud](https://github.com/MarceloRodrigues1853/Estrategia_ResolucaoDeProblema_Debuggin_In_Cloud) — ⭐ 0 • Como parte de uma atividade do curso de aprofundamento Cloud da TalentCloud parceria Proz+AWS.Este documento apresenta uma ESTRATÉGIA voltada para ambientes na AWS com foco na prevenção, detecção e resolução rápida de incidentes. • Último commit: 2025-08-15
 - [portfolio-ciberseguranca](https://github.com/MarceloRodrigues1853/portfolio-ciberseguranca) — ⭐ 0 • Este repositório contém projetos, exercícios práticos e documentos desenvolvidos durante o curso de Certificação em Segurança Cibernética do Google. • Último commit: 2025-08-12
 - [ansible-nginx-setup](https://github.com/MarceloRodrigues1853/ansible-nginx-setup) — ⭐ 0 • Automação de configuração do Nginx com Ansible • Último commit: 2025-08-06
