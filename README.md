@@ -64,7 +64,7 @@ Desenvolvedor **Full Stack** em formação, com interesse em front-end, back-end
 **Commits:** 696  
 **Stars recebidas:** 9  
 **Issues:** 0  
-**PRs:** 4  
+**PRs:** 7  
 **Reviews:** 0
 
 </td>
@@ -90,7 +90,7 @@ Desenvolvedor **Full Stack** em formação, com interesse em front-end, back-end
 
 ## 📦 Repositórios Recentes
 {{ REPOSITORIES_TEMPLATE_START:max=6 }}
-- [MarceloRodrigues1853](https://github.com/MarceloRodrigues1853/MarceloRodrigues1853) — ⭐ 0 • Config files for my GitHub profile. • Último commit: 2025-09-05
+- [MarceloRodrigues1853](https://github.com/MarceloRodrigues1853/MarceloRodrigues1853) — ⭐ 0 • Config files for my GitHub profile. • Último commit: 2025-09-06
 - [iac-ml-aws](https://github.com/MarceloRodrigues1853/iac-ml-aws) — ⭐ 0 • Este projeto demonstra como provisionar ambientes de desenvolvimento, teste e produção para aplicações de Machine Learning na AWS usando Terraform. • Último commit: 2025-08-31
 - [petcare-Hackathon_ONE](https://github.com/MarceloRodrigues1853/petcare-Hackathon_ONE) — ⭐ 0 • Projeto desenvolvido exclusivamente para fins educacionais no Hackathon UM – Oracle Next Education. • Último commit: 2025-08-25
 - [Estrategia_ResolucaoDeProblema_Debuggin_In_Cloud](https://github.com/MarceloRodrigues1853/Estrategia_ResolucaoDeProblema_Debuggin_In_Cloud) — ⭐ 0 • Como parte de uma atividade do curso de aprofundamento Cloud da TalentCloud parceria Proz+AWS.Este documento apresenta uma ESTRATÉGIA voltada para ambientes na AWS com foco na prevenção, detecção e resolução rápida de incidentes. • Último commit: 2025-08-15
