@@ -79,7 +79,7 @@ Desenvolvedor **Full Stack** em formação, com interesse em front-end, back-end
 ---
 
 ## 🧪 Tecnologias por uso
-- HTML — 79.9%
+- React — 79.9%
 - Java — 8.6%
 - JavaScript — 5.8%
 - CSS — 3.4%
