@@ -61,7 +61,7 @@ Desenvolvedor **Full Stack** em formação, com interesse em front-end, back-end
 
 **Idade da conta:** 2 anos  
 **Repositórios:** 71  
-**Commits:** 750  
+**Commits:** 752  
 **Stars recebidas:** 9  
 **Issues:** 0  
 **PRs:** 14  
@@ -90,8 +90,8 @@ Desenvolvedor **Full Stack** em formação, com interesse em front-end, back-end
 
 ## 📦 Repositórios Recentes
 {{ REPOSITORIES_TEMPLATE_START:max=6 }}
-- [MarceloRodrigues1853](https://github.com/MarceloRodrigues1853/MarceloRodrigues1853) — ⭐ 0 • Config files for my GitHub profile. • Último commit: 2025-11-09
-- [dio-desafio-artigo-docker-ia](https://github.com/MarceloRodrigues1853/dio-desafio-artigo-docker-ia) — ⭐ 0 • Este repositório documenta o processo de criação de um artigo técnico utilizando ChatGPT e Lexica.art, como parte do desafio de projeto da DIO. • Último commit: 2025-11-07
+- [dio-desafio-artigo-docker-ia](https://github.com/MarceloRodrigues1853/dio-desafio-artigo-docker-ia) — ⭐ 0 • Este repositório documenta o processo de criação de um artigo técnico utilizando ChatGPT e Gemini, como parte do desafio de projeto da DIO. • Último commit: 2025-11-10
+- [MarceloRodrigues1853](https://github.com/MarceloRodrigues1853/MarceloRodrigues1853) — ⭐ 0 • Config files for my GitHub profile. • Último commit: 2025-11-10
 - [meu-chatgpt-clone](https://github.com/MarceloRodrigues1853/meu-chatgpt-clone) — ⭐ 0 • Este é um projeto de clone do ChatGPT, dividido em server (backend) e web (frontend), com o objetivo de estudar a integração entre um frontend moderno em React e uma API de IA. • Último commit: 2025-10-15
 - [projeto_filmes_aws](https://github.com/MarceloRodrigues1853/projeto_filmes_aws) — ⭐ 0 • Este é um sistema full stack de gerenciamento de filmes, desenvolvido como projeto final do curso de Aprofundamento Cloud. A aplicação permite que usuários se cadastrem, gerenciem um catálogo de filmes, façam avaliações e recebam recomendações personalizadas com base em seus gostos.  • Último commit: 2025-10-01
 - [ml-health-readmission-app](https://github.com/MarceloRodrigues1853/ml-health-readmission-app) — ⭐ 0 • Template completo para um projeto de ML em saúde que prevê readmissão em até 30 dias. Inclui DVC, pipeline de treino, API FastAPI, Docker, CI (GitHub Actions) e documentação. • Último commit: 2025-09-24
