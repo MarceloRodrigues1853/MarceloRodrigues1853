@@ -90,8 +90,8 @@ Desenvolvedor **Full Stack** em formação, com interesse em front-end, back-end
 
 ## 📦 Repositórios Recentes
 {{ REPOSITORIES_TEMPLATE_START:max=6 }}
+- [MarceloRodrigues1853](https://github.com/MarceloRodrigues1853/MarceloRodrigues1853) — ⭐ 0 • Config files for my GitHub profile. • Último commit: 2025-11-12
 - [portfolio-ciberseguranca](https://github.com/MarceloRodrigues1853/portfolio-ciberseguranca) — ⭐ 0 • Este repositório contém projetos, exercícios práticos e documentos desenvolvidos durante o curso de Certificação em Segurança Cibernética do Google. • Último commit: 2025-11-11
-- [MarceloRodrigues1853](https://github.com/MarceloRodrigues1853/MarceloRodrigues1853) — ⭐ 0 • Config files for my GitHub profile. • Último commit: 2025-11-11
 - [dio-desafio-artigo-docker-ia](https://github.com/MarceloRodrigues1853/dio-desafio-artigo-docker-ia) — ⭐ 0 • Este repositório documenta o processo de criação de um artigo técnico utilizando ChatGPT e Gemini, como parte do desafio de projeto da DIO. • Último commit: 2025-11-10
 - [meu-chatgpt-clone](https://github.com/MarceloRodrigues1853/meu-chatgpt-clone) — ⭐ 0 • Este é um projeto de clone do ChatGPT, dividido em server (backend) e web (frontend), com o objetivo de estudar a integração entre um frontend moderno em React e uma API de IA. • Último commit: 2025-10-15
 - [projeto_filmes_aws](https://github.com/MarceloRodrigues1853/projeto_filmes_aws) — ⭐ 0 • Este é um sistema full stack de gerenciamento de filmes, desenvolvido como projeto final do curso de Aprofundamento Cloud. A aplicação permite que usuários se cadastrem, gerenciem um catálogo de filmes, façam avaliações e recebam recomendações personalizadas com base em seus gostos.  • Último commit: 2025-10-01
