@@ -2,7 +2,7 @@ name: Atualizar README automático
 
 on:
   schedule:
-    - cron: '0 12 * * *' # executa todo dia às 09:00 no horário de Brasília (12:00 UTC)
+    - cron: "0 12 * * *" # 09:00 Brasília (12:00 UTC)
   workflow_dispatch:
 
 concurrency:
@@ -15,73 +15,97 @@ jobs:
     permissions:
       contents: write
 
+    env:
+      GH_USER: MarceloRodrigues1853
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
+      # Puxa antes pra evitar "branch atrás"
+      - name: Sync with remote
+        run: |
+          git pull --rebase origin main || true
+
       - name: Gerar README (stats do perfil)
         uses: teoxoy/profile-readme-stats@v3
         with:
-          token: ${{ secrets.USER_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           template: ./TEMPLATE.md
           includeForks: false
 
       - name: Injetar repositórios recentes
+        shell: bash
         run: |
+          set -euo pipefail
           echo "🔄 Buscando repositórios recentes..."
-          REPOS=$(curl -s -H "Authorization: token ${{ secrets.USER_TOKEN }}" \
-            "https://api.github.com/users/MarceloRodrigues1853/repos?sort=updated&per_page=5" |
-            jq -r '.[] | "- [\(.name)](\(.html_url)) — ⭐ \(.stargazers_count) • \(.description // "Sem descrição") • Último commit: \(.updated_at | split("T")[0])"')
 
-          awk -v repos="$REPOS" '
-            /{{ REPOSITORIES_TEMPLATE_START/ {print; print repos; skip=1; next}
+          curl -s \
+            -H "Authorization: Bearer $GH_TOKEN" \
+            -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/users/$GH_USER/repos?sort=updated&per_page=5" \
+          | jq -r '.[] | "- [\(.name)](\(.html_url)) — ⭐ \(.stargazers_count) • \(.description // "Sem descrição") • Último commit: \(.updated_at | split("T")[0])"' \
+          > repos.tmp
+
+          awk '
+            /{{ REPOSITORIES_TEMPLATE_START/ {print; system("cat repos.tmp"); skip=1; next}
             /{{ REPOSITORIES_TEMPLATE_END/ {skip=0}
             skip==0 {print}
           ' README.md > README.tmp && mv README.tmp README.md
 
-      - name: Injetar tecnologias por uso (tratamento de erro)
+      - name: Injetar tecnologias por uso
+        shell: bash
         run: |
+          set -euo pipefail
           echo "🔄 Calculando tecnologias por uso..."
-          LANG_URLS=$(curl -s -H "Authorization: token ${{ secrets.USER_TOKEN }}" \
-            "https://api.github.com/users/MarceloRodrigues1853/repos?per_page=100" | jq -r '.[].languages_url')
 
-          if [ -z "$LANG_URLS" ]; then
-            echo "⚠️ Nenhum dado de linguagem encontrado."
-            LANGS="- Nenhuma linguagem detectada"
+          # pega todas as urls de linguagens
+          curl -s \
+            -H "Authorization: Bearer $GH_TOKEN" \
+            -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/users/$GH_USER/repos?per_page=100" \
+          | jq -r '.[].languages_url' > lang_urls.tmp
+
+          if [ ! -s lang_urls.tmp ]; then
+            echo "- Nenhuma linguagem detectada" > langs.tmp
           else
-            LANGS_JSON=$(for url in $LANG_URLS; do
-              DATA=$(curl -s -H "Authorization: token ${{ secrets.USER_TOKEN }}" "$url")
-              if [ "$DATA" != "{}" ] && [ -n "$DATA" ]; then
-                echo "$DATA"
-              fi
-            done | jq -s 'add')
+            # soma os objetos de linguagens de todos os repos
+            LANGS_JSON=$(while read -r url; do
+              curl -s -H "Authorization: Bearer $GH_TOKEN" -H "Accept: application/vnd.github+json" "$url"
+            done < lang_urls.tmp | jq -s 'reduce .[] as $item ({}; . * {} + $item)')
 
-            TOTAL=$(echo "$LANGS_JSON" | jq '[.[]] | add')
-            if [ "$TOTAL" -eq 0 ] 2>/dev/null; then
-              LANGS="- Nenhuma linguagem detectada"
+            TOTAL=$(echo "$LANGS_JSON" | jq '[to_entries[].value] | add // 0')
+
+            if [ "$TOTAL" -le 0 ]; then
+              echo "- Nenhuma linguagem detectada" > langs.tmp
             else
-              LANGS=$(echo "$LANGS_JSON" | jq --arg total "$TOTAL" -r \
-                'to_entries | sort_by(-.value) | .[:6] | map("- \(.key) — \((.value / ($total | tonumber) * 100) | floor)%") | .[]')
+              echo "$LANGS_JSON" | jq -r --argjson total "$TOTAL" '
+                to_entries
+                | sort_by(-.value)
+                | .[:6]
+                | .[]
+                | "- \(.key) — \((.value / $total * 100) | floor)%"
+              ' > langs.tmp
             fi
           fi
 
-          awk -v langs="$LANGS" '
-            /{{ LANGUAGE_TEMPLATE_START/ {print; print langs; skip=1; next}
+          awk '
+            /{{ LANGUAGE_TEMPLATE_START/ {print; system("cat langs.tmp"); skip=1; next}
             /{{ LANGUAGE_TEMPLATE_END/ {skip=0}
             skip==0 {print}
           ' README.md > README.tmp && mv README.tmp README.md
 
       - name: Commit e Push se houve mudanças
+        shell: bash
         run: |
+          set -euo pipefail
           if [[ -n "$(git status --porcelain)" ]]; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            
-            # O pulo do gato: Sincroniza antes de enviar para evitar o erro de branch atrás da remota
-            git pull origin main --rebase
-            
+
             git add .
             git commit -m "Atualizando README automático"
             git push origin main
