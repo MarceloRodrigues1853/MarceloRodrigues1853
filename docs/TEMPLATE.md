@@ -130,6 +130,7 @@ Sou um desenvolvedor apaixonado por criar soluções inovadoras e eficientes. Mi
 ---
 
 ## 🧪 Tecnologias por uso
+
 {{ LANGUAGE_TEMPLATE_START:max=6 }}
 - {{ LANGUAGE_NAME }} — {{ LANGUAGE_PERCENT }}%
 {{ LANGUAGE_TEMPLATE_END }}
@@ -141,9 +142,7 @@ Sou um desenvolvedor apaixonado por criar soluções inovadoras e eficientes. Mi
 Confira meus projetos mais recentes e relevantes:
 
 {{ REPOSITORIES_TEMPLATE_START:max=6 }}
-- [{{ REPO_NAME }}]({{ REPO_URL }}) — ⭐ {{ REPO_STARS }}  
-  💡 *{{ REPO_DESCRIPTION }}*  
-  📅 Último commit: {{ REPO_UPDATED }}
+- [{{ REPO_NAME }}]({{ REPO_URL }}) — ⭐ {{ REPO_STARS }} • {{ REPO_DESCRIPTION }} • Último commit: {{ REPO_UPDATED }}
 {{ REPOSITORIES_TEMPLATE_END }}
 
 ---
