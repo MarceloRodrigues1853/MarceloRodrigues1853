@@ -1,0 +1,21 @@
+# Arquivos temporários gerados pelo workflow
+*.tmp
+repos.tmp
+lang_urls.tmp
+langs.tmp
+README.tmp
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log

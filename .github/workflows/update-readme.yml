@@ -34,7 +34,7 @@ jobs:
         uses: teoxoy/profile-readme-stats@v3
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          template: ./TEMPLATE.md
+          template: ./docs/TEMPLATE.md
           includeForks: false
 
       - name: Injetar repositórios recentes
@@ -46,7 +46,7 @@ jobs:
           curl -s \
             -H "Authorization: Bearer $GH_TOKEN" \
             -H "Accept: application/vnd.github+json" \
-            "https://api.github.com/users/$GH_USER/repos?sort=updated&per_page=5" \
+            "https://api.github.com/users/$GH_USER/repos?sort=updated&per_page=5&type=all" \
           | jq -r '.[] | "- [\(.name)](\(.html_url)) — ⭐ \(.stargazers_count) • \(.description // "Sem descrição") • Último commit: \(.updated_at | split("T")[0])"' \
           > repos.tmp
 
@@ -55,6 +55,9 @@ jobs:
             /{{ REPOSITORIES_TEMPLATE_END/ {skip=0}
             skip==0 {print}
           ' README.md > README.tmp && mv README.tmp README.md
+
+          # Limpeza de arquivos temporários
+          rm -f repos.tmp
 
       - name: Injetar tecnologias por uso
         shell: bash
@@ -74,8 +77,8 @@ jobs:
           else
             # soma os objetos de linguagens de todos os repos
             LANGS_JSON=$(while read -r url; do
-              curl -s -H "Authorization: Bearer $GH_TOKEN" -H "Accept: application/vnd.github+json" "$url"
-            done < lang_urls.tmp | jq -s 'reduce .[] as $item ({}; . * {} + $item)')
+              curl -s -H "Authorization: Bearer $GH_TOKEN" -H "Accept: application/vnd.github+json" "$url" || echo "{}"
+            done < lang_urls.tmp | jq -s 'reduce .[] as $item ({}; reduce ($item | to_entries[]) as $lang (.; .[$lang.key] = (.[$lang.key] // 0) + $lang.value))')
 
             TOTAL=$(echo "$LANGS_JSON" | jq '[to_entries[].value] | add // 0')
 
@@ -98,6 +101,15 @@ jobs:
             skip==0 {print}
           ' README.md > README.tmp && mv README.tmp README.md
 
+          # Limpeza de arquivos temporários
+          rm -f lang_urls.tmp langs.tmp
+
+      - name: Limpar arquivos temporários
+        shell: bash
+        run: |
+          rm -f *.tmp repos.tmp lang_urls.tmp langs.tmp README.tmp
+        if: always()
+
       - name: Commit e Push se houve mudanças
         shell: bash
         run: |
@@ -106,8 +118,8 @@ jobs:
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-            git add .
-            git commit -m "Atualizando README automático"
+            git add README.md
+            git commit -m "🤖 Atualizar README automático [skip ci]"
             git push origin main
           else
             echo "✅ Nenhuma mudança detectada."
