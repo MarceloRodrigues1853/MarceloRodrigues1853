@@ -1,0 +1,88 @@
+================================================================================
+                    COMANDOS GIT - REFERÊNCIA RÁPIDA
+================================================================================
+
+📌 SEQUÊNCIA PADRÃO PARA SINCRONIZAR REPOSITÓRIO LOCAL E REMOTO
+================================================================================
+
+1. Atualizar o repositório local com o remoto:
+   git pull origin main
+
+2. Verificar o status (recomendado):
+   git status
+
+3. Adicionar mudanças ao staging:
+   git add .
+
+4. Fazer commit:
+   git commit -m "Descrição das mudanças"
+
+5. Enviar para o remoto:
+   git push origin main
+
+
+================================================================================
+🔧 COMANDOS ÚTEIS
+================================================================================
+
+VERIFICAR STATUS:
+   git status                    # Ver o estado atual
+   git log --oneline            # Ver histórico de commits
+   git branch -a                # Ver todas as branches
+
+ADICIONAR ARQUIVOS:
+   git add .                    # Adiciona todos os arquivos
+   git add arquivo.txt          # Adiciona arquivo específico
+   git add *.md                 # Adiciona todos os arquivos .md
+
+COMMIT:
+   git commit -m "Mensagem"     # Commit com mensagem
+   git commit -am "Mensagem"    # Adiciona e commita (apenas arquivos rastreados)
+
+SINCRONIZAR:
+   git pull origin main         # Puxar mudanças do remoto
+   git push origin main         # Enviar mudanças para o remoto
+   git fetch                    # Buscar mudanças sem mesclar
+
+BRANCHES:
+   git branch                   # Listar branches locais
+   git checkout -b nova-branch  # Criar e mudar para nova branch
+   git checkout main            # Voltar para branch main
+   git merge nome-branch        # Mesclar branch no branch atual
+
+DESFAZER MUDANÇAS:
+   git restore arquivo.txt      # Desfazer mudanças em arquivo não commitado
+   git restore --staged arquivo # Remover arquivo do staging
+   git reset HEAD~1             # Desfazer último commit (mantém mudanças)
+   git reset --hard HEAD~1      # Desfazer último commit (perde mudanças)
+
+
+================================================================================
+⚡ ATALHOS E WORKFLOWS
+================================================================================
+
+WORKFLOW RÁPIDO (se já estiver tudo adicionado):
+   git pull origin main && git push origin main
+
+SE HOUVER CONFLITOS APÓS git pull:
+   1. Resolva os conflitos nos arquivos
+   2. git add .
+   3. git commit -m "Resolvendo conflitos"
+   4. git push origin main
+
+VERIFICAR DIFERENÇAS:
+   git diff                     # Ver mudanças não commitadas
+   git diff --staged            # Ver mudanças no staging
+   git diff HEAD~1              # Ver diferenças do último commit
+
+
+================================================================================
+💡 DICAS
+================================================================================
+
+- Sempre faça 'git pull' antes de 'git push' para evitar conflitos
+- Use mensagens de commit descritivas
+- Verifique 'git status' antes de commitar
+- Use 'git log' para verificar histórico antes de fazer mudanças
+
+================================================================================
