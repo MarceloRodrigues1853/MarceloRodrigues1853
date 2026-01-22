@@ -2,8 +2,8 @@ name: Atualizar README automático
 
 on:
   schedule:
-    - cron: "0 12 * * *" # 09:00 Brasília (12:00 UTC)
-  workflow_dispatch:
+    - cron: "0 12 * * *" # Executa às 09:00 Brasília (12:00 UTC)
+  workflow_dispatch: # Permite execução manual
 
 concurrency:
   group: profile-readme
@@ -17,7 +17,9 @@ jobs:
 
     env:
       GH_USER: MarceloRodrigues1853
-      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      # O workflow usará o GH_TOKEN (Secret que você está criando)
+      # Se ele não existir, ele tentará usar o GITHUB_TOKEN padrão como fallback
+      GH_TOKEN: ${{ secrets.GH_TOKEN || secrets.GITHUB_TOKEN }}
 
     steps:
       - name: Checkout
@@ -25,161 +27,88 @@ jobs:
         with:
           fetch-depth: 0
 
-      # Puxa antes pra evitar "branch atrás"
-      - name: Sync with remote
+      - name: Sincronizar com o remoto
         run: |
-          git pull --rebase origin main || true
+          git config pull.rebase true
+          git pull origin main || echo "Branch já está atualizada ou vazia"
 
-      - name: Gerar README (stats do perfil)
+      - name: Gerar README (Estatísticas do Perfil)
         id: generate-readme
         continue-on-error: true
         timeout-minutes: 5
         uses: teoxoy/profile-readme-stats@v3
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ env.GH_TOKEN }}
           template: ./docs/TEMPLATE.md
           includeForks: false
           skip_private: false
       
-      - name: Gerar estatísticas manualmente (fallback)
+      - name: Fallback - Gerar estatísticas via API REST
         if: steps.generate-readme.outcome == 'failure'
         shell: bash
         run: |
           set -euo pipefail
-          echo "⚠️ Action falhou, gerando estatísticas manualmente via API..."
+          echo "⚠️ A Action teoxoy falhou. Iniciando fallback manual..."
           
-          # Copia o template
+          # Garante que o README base seja o seu TEMPLATE
           cp docs/TEMPLATE.md README.md
           
-          # Busca estatísticas básicas do usuário
-          USER_STATS=$(curl -s \
-            -H "Authorization: Bearer $GH_TOKEN" \
-            -H "Accept: application/vnd.github+json" \
-            "https://api.github.com/users/$GH_USER" || echo '{}')
-          
-          # Extrai valores
-          REPOS=$(echo "$USER_STATS" | jq -r '.public_repos // 0')
-          CREATED_AT=$(echo "$USER_STATS" | jq -r '.created_at // "2023-01-01T00:00:00Z"')
-          
-          # Calcula idade da conta em anos (formato: YYYY-MM-DD)
-          CREATED_YEAR=$(echo "$CREATED_AT" | cut -d'-' -f1)
+          # Coleta dados básicos do usuário
+          USER_DATA=$(curl -s -H "Authorization: Bearer $GH_TOKEN" "https://api.github.com/users/$GH_USER")
+          REPOS=$(echo "$USER_DATA" | jq -r '.public_repos // 0')
+          CREATED_YEAR=$(echo "$USER_DATA" | jq -r '.created_at' | cut -d'-' -f1)
           CURRENT_YEAR=$(date +%Y)
-          AGE_YEARS=$(( CURRENT_YEAR - CREATED_YEAR ))
-          [ -z "$AGE_YEARS" ] || [ "$AGE_YEARS" -lt 0 ] && AGE_YEARS=2
+          AGE=$(( CURRENT_YEAR - CREATED_YEAR ))
           
-          # Busca repositórios para calcular stats adicionais
-          REPOS_DATA=$(curl -s \
-            -H "Authorization: Bearer $GH_TOKEN" \
-            -H "Accept: application/vnd.github+json" \
-            "https://api.github.com/users/$GH_USER/repos?per_page=100&type=all" || echo '[]')
-          
-          STARS=$(echo "$REPOS_DATA" | jq '[.[].stargazers_count] | add // 0')
-          
-          # Substitui variáveis no README (valores conservadores para commits, PRs, etc.)
-          sed -i "s/{{ ACCOUNT_AGE }}/$AGE_YEARS/g" README.md
+          # Substitui placeholders básicos no README
+          sed -i "s/{{ ACCOUNT_AGE }}/$AGE/g" README.md
           sed -i "s/{{ REPOSITORIES }}/$REPOS/g" README.md
-          sed -i "s/{{ COMMITS }}/0/g" README.md
-          sed -i "s/{{ STARS }}/$STARS/g" README.md
-          sed -i "s/{{ ISSUES }}/0/g" README.md
-          sed -i "s/{{ PULL_REQUESTS }}/0/g" README.md
-          sed -i "s/{{ CODE_REVIEWS }}/0/g" README.md
+          sed -i "s/{{ COMMITS }}/+/g" README.md # Commits totais via REST são complexos, usamos '+'
           
-          echo "✅ README criado com estatísticas via API REST"
-      
-      - name: Verificar se README existe
-        shell: bash
-        run: |
-          if [ ! -f README.md ]; then
-            echo "❌ Erro: README.md não foi criado!"
-            exit 1
-          else
-            echo "✅ README.md encontrado"
-          fi
+          echo "✅ Estatísticas básicas injetadas via Fallback."
 
-      - name: Injetar repositórios recentes
+      - name: Injetar Repositórios Recentes
         shell: bash
         run: |
           set -euo pipefail
           echo "🔄 Buscando repositórios recentes..."
-
-          curl -s \
-            -H "Authorization: Bearer $GH_TOKEN" \
-            -H "Accept: application/vnd.github+json" \
-            "https://api.github.com/users/$GH_USER/repos?sort=updated&per_page=5&type=all" \
-          | jq -r '.[] | "- [\(.name)](\(.html_url)) — ⭐ \(.stargazers_count) • \(.description // "Sem descrição") • Último commit: \(.updated_at | split("T")[0])"' \
+          
+          curl -s -H "Authorization: Bearer $GH_TOKEN" \
+            "https://api.github.com/users/$GH_USER/repos?sort=updated&per_page=5" \
+          | jq -r '.[] | "- [\(.name)](\(.html_url)) — ⭐ \(.stargazers_count) • \(.description // "Sem descrição")"' \
           > repos.tmp
 
-          awk '
-            /{{ REPOSITORIES_TEMPLATE_START/ {print; system("cat repos.tmp"); skip=1; next}
-            /{{ REPOSITORIES_TEMPLATE_END/ {skip=0}
-            skip==0 {print}
-          ' README.md > README.tmp && mv README.tmp README.md
+          # Injeção segura usando awk
+          awk '/{{ REPOSITORIES_TEMPLATE_START/ {print; system("cat repos.tmp"); skip=1; next} /{{ REPOSITORIES_TEMPLATE_END/ {skip=0} skip==0 {print}' README.md > README.tmp && mv README.tmp README.md
 
-          # Limpeza de arquivos temporários
-          rm -f repos.tmp
-
-      - name: Injetar tecnologias por uso
+      - name: Injetar Tecnologias (Linguagens)
         shell: bash
         run: |
           set -euo pipefail
-          echo "🔄 Calculando tecnologias por uso..."
+          echo "🔄 Analisando linguagens..."
+          
+          # Agrupa linguagens dos repositórios mais recentes
+          curl -s -H "Authorization: Bearer $GH_TOKEN" "https://api.github.com/users/$GH_USER/repos?per_page=15&sort=pushed" \
+          | jq -r '.[].language' | grep -v "null" | sort | uniq -c | sort -nr \
+          | awk '{print "- " $2 " (" $1 " repos)"}' > langs.tmp
 
-          # pega todas as urls de linguagens
-          curl -s \
-            -H "Authorization: Bearer $GH_TOKEN" \
-            -H "Accept: application/vnd.github+json" \
-            "https://api.github.com/users/$GH_USER/repos?per_page=100" \
-          | jq -r '.[].languages_url' > lang_urls.tmp
-
-          if [ ! -s lang_urls.tmp ]; then
-            echo "- Nenhuma linguagem detectada" > langs.tmp
-          else
-            # soma os objetos de linguagens de todos os repos
-            LANGS_JSON=$(while read -r url; do
-              curl -s -H "Authorization: Bearer $GH_TOKEN" -H "Accept: application/vnd.github+json" "$url" || echo "{}"
-            done < lang_urls.tmp | jq -s 'reduce .[] as $item ({}; reduce ($item | to_entries[]) as $lang (.; .[$lang.key] = (.[$lang.key] // 0) + $lang.value))')
-
-            TOTAL=$(echo "$LANGS_JSON" | jq '[to_entries[].value] | add // 0')
-
-            if [ "$TOTAL" -le 0 ]; then
-              echo "- Nenhuma linguagem detectada" > langs.tmp
-            else
-              echo "$LANGS_JSON" | jq -r --argjson total "$TOTAL" '
-                to_entries
-                | sort_by(-.value)
-                | .[:6]
-                | .[]
-                | "- \(.key) — \((.value / $total * 100) | floor)%"
-              ' > langs.tmp
-            fi
-          fi
-
-          awk '
-            /{{ LANGUAGE_TEMPLATE_START/ {print; system("cat langs.tmp"); skip=1; next}
-            /{{ LANGUAGE_TEMPLATE_END/ {skip=0}
-            skip==0 {print}
-          ' README.md > README.tmp && mv README.tmp README.md
-
-          # Limpeza de arquivos temporários
-          rm -f lang_urls.tmp langs.tmp
+          awk '/{{ LANGUAGE_TEMPLATE_START/ {print; system("cat langs.tmp"); skip=1; next} /{{ LANGUAGE_TEMPLATE_END/ {skip=0} skip==0 {print}' README.md > README.tmp && mv README.tmp README.md
 
       - name: Limpar arquivos temporários
-        shell: bash
-        run: |
-          rm -f *.tmp repos.tmp lang_urls.tmp langs.tmp README.tmp
+        run: rm -f *.tmp
         if: always()
 
-      - name: Commit e Push se houve mudanças
+      - name: Commit e Push das alterações
         shell: bash
         run: |
-          set -euo pipefail
-          if [[ -n "$(git status --porcelain)" ]]; then
-            git config user.name "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-            git add README.md
-            git commit -m "🤖 Atualizar README automático [skip ci]"
-            git push origin main
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          
+          git add README.md
+          # Só commita se houver mudanças reais para evitar loops
+          if git diff --staged --quiet; then
+            echo "Nenhuma alteração detectada no README."
           else
-            echo "✅ Nenhuma mudança detectada."
+            git commit -m "🤖 Atualização automática do perfil [skip ci]"
+            git push origin main
           fi
