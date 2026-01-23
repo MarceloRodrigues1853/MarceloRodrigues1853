@@ -109,12 +109,12 @@ Sou um desenvolvedor apaixonado por criar soluções inovadoras e eficientes. Mi
 <tr>
 <td>
 
-**Idade da conta:** 3 anos  
-**Repositórios:** 83  
-**Commits:** 0  
-**Stars recebidas:** 11  
+**Idade da conta:** 2 anos  
+**Repositórios:** 73  
+**Commits:** 774  
+**Stars recebidas:** 9  
 **Issues:** 0  
-**PRs:** 0  
+**PRs:** 14  
 **Reviews:** 0
 
 </td>
@@ -131,14 +131,12 @@ Sou um desenvolvedor apaixonado por criar soluções inovadoras e eficientes. Mi
 
 ## 🧪 Tecnologias por uso
 
-{{ LANGUAGE_TEMPLATE_START:max=6 }}
-- Python — 93%
-- HTML — 2%
+- Python — 93.2%
+- HTML — 2.8%
 - Cython — 2%
-- C — 0%
-- JavaScript — 0%
-- Java — 0%
-{{ LANGUAGE_TEMPLATE_END }}
+- C — 0.6%
+- Java — 0.3%
+- Other — 0.8%
 
 ---
 
@@ -147,11 +145,11 @@ Sou um desenvolvedor apaixonado por criar soluções inovadoras e eficientes. Mi
 Confira meus projetos mais recentes e relevantes:
 
 {{ REPOSITORIES_TEMPLATE_START:max=6 }}
-- [MarceloRodrigues1853](https://github.com/MarceloRodrigues1853/MarceloRodrigues1853) — ⭐ 0 • Config files for my GitHub profile. • Último commit: 2026-01-21
-- [contador-de-palavras](https://github.com/MarceloRodrigues1853/contador-de-palavras) — ⭐ 0 • Projeto Python para contar palavras em arquivos de texto. • Último commit: 2026-01-18
-- [portfolio-ciberseguranca](https://github.com/MarceloRodrigues1853/portfolio-ciberseguranca) — ⭐ 0 • Este repositório contém projetos, exercícios práticos e documentos desenvolvidos durante o curso de Certificação em Segurança Cibernética do Google. • Último commit: 2026-01-12
-- [api-crud-node-mysql](https://github.com/MarceloRodrigues1853/api-crud-node-mysql) — ⭐ 0 • API REST simples para gerenciamento de usuários, desenvolvida com Node.js, Express e MySQL, seguindo boas práticas de organização, validação básica e uso de connection pool. • Último commit: 2026-01-12
-- [dio-desafio-artigo-docker-ia](https://github.com/MarceloRodrigues1853/dio-desafio-artigo-docker-ia) — ⭐ 0 • Este repositório documenta o processo de criação de um artigo técnico utilizando ChatGPT e Gemini, como parte do desafio de projeto da DIO. • Último commit: 2025-11-10
+- [MarceloRodrigues1853](https://github.com/MarceloRodrigues1853/MarceloRodrigues1853) — ⭐ 0 • Config files for my GitHub profile.
+- [contador-de-palavras](https://github.com/MarceloRodrigues1853/contador-de-palavras) — ⭐ 0 • Projeto Python para contar palavras em arquivos de texto.
+- [portfolio-ciberseguranca](https://github.com/MarceloRodrigues1853/portfolio-ciberseguranca) — ⭐ 0 • Este repositório contém projetos, exercícios práticos e documentos desenvolvidos durante o curso de Certificação em Segurança Cibernética do Google.
+- [api-crud-node-mysql](https://github.com/MarceloRodrigues1853/api-crud-node-mysql) — ⭐ 0 • API REST simples para gerenciamento de usuários, desenvolvida com Node.js, Express e MySQL, seguindo boas práticas de organização, validação básica e uso de connection pool.
+- [dio-desafio-artigo-docker-ia](https://github.com/MarceloRodrigues1853/dio-desafio-artigo-docker-ia) — ⭐ 0 • Este repositório documenta o processo de criação de um artigo técnico utilizando ChatGPT e Gemini, como parte do desafio de projeto da DIO.
 {{ REPOSITORIES_TEMPLATE_END }}
 
 ---
