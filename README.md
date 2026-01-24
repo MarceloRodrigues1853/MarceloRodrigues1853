@@ -110,8 +110,8 @@ Sou um desenvolvedor apaixonado por criar soluções inovadoras e eficientes. Mi
 <td>
 
 **Idade da conta:** 2 anos  
-**Repositórios:** 73  
-**Commits:** 774  
+**Repositórios:** 74  
+**Commits:** 776  
 **Stars recebidas:** 9  
 **Issues:** 0  
 **PRs:** 14  
@@ -145,11 +145,11 @@ Sou um desenvolvedor apaixonado por criar soluções inovadoras e eficientes. Mi
 Confira meus projetos mais recentes e relevantes:
 
 {{ REPOSITORIES_TEMPLATE_START:max=6 }}
+- [calculadora-python-gui](https://github.com/MarceloRodrigues1853/calculadora-python-gui) — ⭐ 0 • Um aplicativo de calculadora desktop desenvolvido em Python, focado em facilidade de uso e registro de operações.
 - [MarceloRodrigues1853](https://github.com/MarceloRodrigues1853/MarceloRodrigues1853) — ⭐ 0 • Config files for my GitHub profile.
 - [contador-de-palavras](https://github.com/MarceloRodrigues1853/contador-de-palavras) — ⭐ 0 • Projeto Python para contar palavras em arquivos de texto.
 - [portfolio-ciberseguranca](https://github.com/MarceloRodrigues1853/portfolio-ciberseguranca) — ⭐ 0 • Este repositório contém projetos, exercícios práticos e documentos desenvolvidos durante o curso de Certificação em Segurança Cibernética do Google.
 - [api-crud-node-mysql](https://github.com/MarceloRodrigues1853/api-crud-node-mysql) — ⭐ 0 • API REST simples para gerenciamento de usuários, desenvolvida com Node.js, Express e MySQL, seguindo boas práticas de organização, validação básica e uso de connection pool.
-- [dio-desafio-artigo-docker-ia](https://github.com/MarceloRodrigues1853/dio-desafio-artigo-docker-ia) — ⭐ 0 • Este repositório documenta o processo de criação de um artigo técnico utilizando ChatGPT e Gemini, como parte do desafio de projeto da DIO.
 {{ REPOSITORIES_TEMPLATE_END }}
 
 ---
