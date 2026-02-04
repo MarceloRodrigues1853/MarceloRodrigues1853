@@ -165,6 +165,21 @@ Confira meus projetos mais recentes e relevantes:
 
 ---
 
+## 💼 Available for Freelance & Micro-services
+
+<div align="justify">
+
+I am available for small projects and technical tasks. If you need efficient solutions with a focus on quality and security, let's talk! **Payments accepted via PayPal.**
+
+- **Python & Bash:** Automation scripts, web scraping, and Linux server task automation.
+- **Node.js & Flask:** API development, database integration (MySQL/SQLite), and CRUDs.
+- **Cybersecurity:** Basic security audits and implementation of best practices.
+- **Web Development:** Responsive landing pages and JavaScript functional scripts.
+
+</div>
+
+---
+
 ## 🌐 Contato
 
 <div align="center">
