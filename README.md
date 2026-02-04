@@ -111,7 +111,7 @@ Sou um desenvolvedor apaixonado por criar soluções inovadoras e eficientes. Mi
 
 **Idade da conta:** 2 anos  
 **Repositórios:** 75  
-**Commits:** 803  
+**Commits:** 804  
 **Stars recebidas:** 9  
 **Issues:** 0  
 **PRs:** 14  
@@ -145,8 +145,8 @@ Sou um desenvolvedor apaixonado por criar soluções inovadoras e eficientes. Mi
 Confira meus projetos mais recentes e relevantes:
 
 {{ REPOSITORIES_TEMPLATE_START:max=6 }}
-- [Task_Master_SQL](https://github.com/MarceloRodrigues1853/Task_Master_SQL) — ⭐ 0 • Este projeto representa minha evolução prática como estudante de Ciência da Computação. O que começou como um simples script de rotas em Flask evoluiu para uma aplicação Web completa, focada em segurança, persistência de dados e experiência do usuário.
 - [MarceloRodrigues1853](https://github.com/MarceloRodrigues1853/MarceloRodrigues1853) — ⭐ 0 • Config files for my GitHub profile.
+- [Task_Master_SQL](https://github.com/MarceloRodrigues1853/Task_Master_SQL) — ⭐ 0 • Este projeto representa minha evolução prática como estudante de Ciência da Computação. O que começou como um simples script de rotas em Flask evoluiu para uma aplicação Web completa, focada em segurança, persistência de dados e experiência do usuário.
 - [calculadora-python-gui](https://github.com/MarceloRodrigues1853/calculadora-python-gui) — ⭐ 0 • Um aplicativo de calculadora desktop desenvolvido em Python, focado em facilidade de uso e registro de operações.
 - [contador-de-palavras](https://github.com/MarceloRodrigues1853/contador-de-palavras) — ⭐ 0 • Projeto Python para contar palavras em arquivos de texto.
 - [portfolio-ciberseguranca](https://github.com/MarceloRodrigues1853/portfolio-ciberseguranca) — ⭐ 0 • Este repositório contém projetos, exercícios práticos e documentos desenvolvidos durante o curso de Certificação em Segurança Cibernética do Google.
@@ -169,6 +169,21 @@ Confira meus projetos mais recentes e relevantes:
 - Atendimento ao cliente e comunicação eficiente
 
 > *Esta experiência me proporcionou habilidades valiosas em gestão de tempo, organização, responsabilidade e comunicação, que aplico diretamente no desenvolvimento de software.*
+
+---
+
+## 💼 Available for Freelance & Micro-services
+
+<div align="justify">
+
+I am available for small projects and technical tasks. If you need efficient solutions with a focus on quality and security, let's talk! **Payments accepted via PayPal.**
+
+- **Python & Bash:** Automation scripts, web scraping, and Linux server task automation.
+- **Node.js & Flask:** API development, database integration (MySQL/SQLite), and CRUDs.
+- **Cybersecurity:** Basic security audits and implementation of best practices.
+- **Web Development:** Responsive landing pages and JavaScript functional scripts.
+
+</div>
 
 ---
 
