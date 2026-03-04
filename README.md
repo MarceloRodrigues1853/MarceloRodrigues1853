@@ -109,13 +109,13 @@ Sou um desenvolvedor apaixonado por criar soluções inovadoras e eficientes. Mi
 <tr>
 <td>
 
-**Idade da conta:** 3 anos  
-**Repositórios:** 85  
-**Commits:** +  
-**Stars recebidas:** {{ STARS }}  
-**Issues:** {{ ISSUES }}  
-**PRs:** {{ PULL_REQUESTS }}  
-**Reviews:** {{ CODE_REVIEWS }}
+**Idade da conta:** 2 anos  
+**Repositórios:** 75  
+**Commits:** 804  
+**Stars recebidas:** 9  
+**Issues:** 0  
+**PRs:** 14  
+**Reviews:** 0
 
 </td>
 </tr>
@@ -131,12 +131,12 @@ Sou um desenvolvedor apaixonado por criar soluções inovadoras e eficientes. Mi
 
 ## 🧪 Tecnologias por uso
 
-{{ LANGUAGE_TEMPLATE_START:max=6 }}
-- Python (6 repos)
-- JavaScript (3 repos)
-- Java (1 repos)
-- HCL (1 repos)
-{{ LANGUAGE_TEMPLATE_END }}
+- Python — 93.2%
+- HTML — 2.8%
+- Cython — 2%
+- C — 0.6%
+- Java — 0.3%
+- Other — 0.8%
 
 ---
 
