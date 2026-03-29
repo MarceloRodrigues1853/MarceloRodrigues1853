@@ -145,8 +145,8 @@ Sou um desenvolvedor apaixonado por criar soluções inovadoras e eficientes. Mi
 Confira meus projetos mais recentes e relevantes:
 
 {{ REPOSITORIES_TEMPLATE_START:max=6 }}
-- [JogoDaVelha-Java](https://github.com/MarceloRodrigues1853/JogoDaVelha-Java) — ⭐ 0 • Sem descrição
 - [MarceloRodrigues1853](https://github.com/MarceloRodrigues1853/MarceloRodrigues1853) — ⭐ 0 • Config files for my GitHub profile.
+- [JogoDaVelha-Java](https://github.com/MarceloRodrigues1853/JogoDaVelha-Java) — ⭐ 0 • Sem descrição
 - [Task_Master_SQL](https://github.com/MarceloRodrigues1853/Task_Master_SQL) — ⭐ 0 • Este projeto representa minha evolução prática como estudante de Ciência da Computação. O que começou como um simples script de rotas em Flask evoluiu para uma aplicação Web completa, focada em segurança, persistência de dados e experiência do usuário.
 - [calculadora-python-gui](https://github.com/MarceloRodrigues1853/calculadora-python-gui) — ⭐ 0 • Um aplicativo de calculadora desktop desenvolvido em Python, focado em facilidade de uso e registro de operações.
 - [contador-de-palavras](https://github.com/MarceloRodrigues1853/contador-de-palavras) — ⭐ 0 • Projeto Python para contar palavras em arquivos de texto.
