@@ -111,11 +111,11 @@ Sou um desenvolvedor apaixonado por criar soluções inovadoras e eficientes. Mi
 
 **Idade da conta:** 2 anos  
 **Repositórios:** 76  
-**Commits:** 811  
+**Commits:** 812  
 **Stars recebidas:** 9  
 **Issues:** 0  
 **PRs:** 16  
-**Reviews:** 5
+**Reviews:** 8
 
 </td>
 </tr>
