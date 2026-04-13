@@ -109,7 +109,7 @@ Sou um desenvolvedor apaixonado por criar soluções inovadoras e eficientes. Mi
 <tr>
 <td>
 
-**Idade da conta:** 2 anos  
+**Idade da conta:** 3 anos  
 **Repositórios:** 76  
 **Commits:** 812  
 **Stars recebidas:** 9  
