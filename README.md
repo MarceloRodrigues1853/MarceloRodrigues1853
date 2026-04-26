@@ -145,8 +145,8 @@ Sou um desenvolvedor apaixonado por criar soluções inovadoras e eficientes. Mi
 Confira meus projetos mais recentes e relevantes:
 
 {{ REPOSITORIES_TEMPLATE_START:max=6 }}
-- [exercicio-java-processador-numeros](https://github.com/MarceloRodrigues1853/exercicio-java-processador-numeros) — ⭐ 0 • Evolução do desafio Globant/DIO: Processador de números em Java focado em Clean Code e SOLID. Implementa filtros polimórficos, tratamento robusto de exceções com validação de entrada e arquitetura desacoplada. Um exercício simples transformado em uma aplicação de console resiliente e escalável.
 - [MarceloRodrigues1853](https://github.com/MarceloRodrigues1853/MarceloRodrigues1853) — ⭐ 0 • Config files for my GitHub profile.
+- [exercicio-java-processador-numeros](https://github.com/MarceloRodrigues1853/exercicio-java-processador-numeros) — ⭐ 0 • Evolução do desafio Globant/DIO: Processador de números em Java focado em Clean Code e SOLID. Implementa filtros polimórficos, tratamento robusto de exceções com validação de entrada e arquitetura desacoplada. Um exercício simples transformado em uma aplicação de console resiliente e escalável.
 - [JogoDaVelha-Java](https://github.com/MarceloRodrigues1853/JogoDaVelha-Java) — ⭐ 0 • Sem descrição
 - [Task_Master_SQL](https://github.com/MarceloRodrigues1853/Task_Master_SQL) — ⭐ 0 • Este projeto representa minha evolução prática como estudante de Ciência da Computação. O que começou como um simples script de rotas em Flask evoluiu para uma aplicação Web completa, focada em segurança, persistência de dados e experiência do usuário.
 - [calculadora-python-gui](https://github.com/MarceloRodrigues1853/calculadora-python-gui) — ⭐ 0 • Um aplicativo de calculadora desktop desenvolvido em Python, focado em facilidade de uso e registro de operações.
