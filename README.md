@@ -111,7 +111,7 @@ Sou um desenvolvedor apaixonado por criar soluções inovadoras e eficientes. Mi
 
 **Idade da conta:** 3 anos  
 **Repositórios:** 78  
-**Commits:** 816  
+**Commits:** 818  
 **Stars recebidas:** 9  
 **Issues:** 0  
 **PRs:** 18  
@@ -145,7 +145,7 @@ Sou um desenvolvedor apaixonado por criar soluções inovadoras e eficientes. Mi
 Confira meus projetos mais recentes e relevantes:
 
 {{ REPOSITORIES_TEMPLATE_START:max=6 }}
-- [ada-java-programacao-web-2-exercicios](https://github.com/MarceloRodrigues1853/ada-java-programacao-web-2-exercicios) — ⭐ 0 • Repositório criado para fins de estudo e compartilhamento de codigos e exercicos prosotos na aulas de progaramção web faciliatando a replicação e entendimento do modulo
+- [ada-java-programacao-web-2-exercicios](https://github.com/MarceloRodrigues1853/ada-java-programacao-web-2-exercicios) — ⭐ 0 • Repositório criado para fins de estudo e compartilhamento de codigos e exercicos proprostos na aulas de progaramção web faciliatando a replicação e entendimento do modulo
 - [MarceloRodrigues1853](https://github.com/MarceloRodrigues1853/MarceloRodrigues1853) — ⭐ 0 • Config files for my GitHub profile.
 - [tecnicas-programacao](https://github.com/MarceloRodrigues1853/tecnicas-programacao) — ⭐ 1 • Sem descrição
 - [JogoDaVelha-Java](https://github.com/MarceloRodrigues1853/JogoDaVelha-Java) — ⭐ 0 • Este projeto é uma implementação do Jogo da Velha desenvolvida para fins acadêmicos e desafio de projeto da Plataforma de ensino ADA, focada em Lógica de Programação, Orientação a Objetos e Tratamento de Exceções em Java.
