@@ -110,11 +110,11 @@ Sou um desenvolvedor apaixonado por criar soluções inovadoras e eficientes. Mi
 <td>
 
 **Idade da conta:** 3 anos  
-**Repositórios:** 79  
-**Commits:** 827  
+**Repositórios:** 80  
+**Commits:** 833  
 **Stars recebidas:** 9  
 **Issues:** 0  
-**PRs:** 21  
+**PRs:** 22  
 **Reviews:** 8
 
 </td>
@@ -131,7 +131,7 @@ Sou um desenvolvedor apaixonado por criar soluções inovadoras e eficientes. Mi
 
 ## 🧪 Tecnologias por uso
 
-- Python — 93.2%
+- Python — 93.1%
 - HTML — 2.8%
 - Cython — 2%
 - C — 0.6%
@@ -145,11 +145,11 @@ Sou um desenvolvedor apaixonado por criar soluções inovadoras e eficientes. Mi
 Confira meus projetos mais recentes e relevantes:
 
 {{ REPOSITORIES_TEMPLATE_START:max=6 }}
-- [MarceloRodrigues1853](https://github.com/MarceloRodrigues1853/MarceloRodrigues1853) — ⭐ 0 • Config files for my GitHub profile.
 - [ada-java-programacao-web-2-exercicios](https://github.com/MarceloRodrigues1853/ada-java-programacao-web-2-exercicios) — ⭐ 0 • Repositório criado para fins de estudo e compartilhamento de codigos e exercicos proprostos na aulas de progaramção web faciliatando a replicação e entendimento do modulo
+- [api_books_java](https://github.com/MarceloRodrigues1853/api_books_java) — ⭐ 0 • API RESTful desenvolvida em Java e Spring Boot com implementação de Spring Security. Projeto criado com fins puramente acadêmicos para estudo prático, consulta e compartilhamento de código.
+- [MarceloRodrigues1853](https://github.com/MarceloRodrigues1853/MarceloRodrigues1853) — ⭐ 0 • Config files for my GitHub profile.
 - [ada-java_web-quarkus-api-starwars](https://github.com/MarceloRodrigues1853/ada-java_web-quarkus-api-starwars) — ⭐ 0 • Projeto criado para fins de estudo, a fim de compartilhar com colegas de turma do curso AdaSer+Tech facilitando visualização e replicação do que foi passado e aplicado na aula
 - [tecnicas-programacao](https://github.com/MarceloRodrigues1853/tecnicas-programacao) — ⭐ 1 • Sem descrição
-- [JogoDaVelha-Java](https://github.com/MarceloRodrigues1853/JogoDaVelha-Java) — ⭐ 0 • Este projeto é uma implementação do Jogo da Velha desenvolvida para fins acadêmicos e desafio de projeto da Plataforma de ensino ADA, focada em Lógica de Programação, Orientação a Objetos e Tratamento de Exceções em Java.
 {{ REPOSITORIES_TEMPLATE_END }}
 
 ---
