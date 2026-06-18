@@ -145,8 +145,8 @@ Sou um desenvolvedor apaixonado por criar soluções inovadoras e eficientes. Mi
 Confira meus projetos mais recentes e relevantes:
 
 {{ REPOSITORIES_TEMPLATE_START:max=6 }}
-- [tecnicas-programacao](https://github.com/MarceloRodrigues1853/tecnicas-programacao) — ⭐ 0 • Sem descrição
 - [MarceloRodrigues1853](https://github.com/MarceloRodrigues1853/MarceloRodrigues1853) — ⭐ 0 • Config files for my GitHub profile.
+- [tecnicas-programacao](https://github.com/MarceloRodrigues1853/tecnicas-programacao) — ⭐ 0 • Sem descrição
 - [ada-java-programacao-web-2-exercicios](https://github.com/MarceloRodrigues1853/ada-java-programacao-web-2-exercicios) — ⭐ 0 • Repositório criado para fins de estudo e compartilhamento de codigos e exercicos proprostos na aulas de progaramção web faciliatando a replicação e entendimento do modulo
 - [api_books_java](https://github.com/MarceloRodrigues1853/api_books_java) — ⭐ 0 • API RESTful desenvolvida em Java e Spring Boot com implementação de Spring Security. Projeto criado com fins puramente acadêmicos para estudo prático, consulta e compartilhamento de código.
 - [ada-java_web-quarkus-api-starwars](https://github.com/MarceloRodrigues1853/ada-java_web-quarkus-api-starwars) — ⭐ 0 • Projeto criado para fins de estudo, a fim de compartilhar com colegas de turma do curso AdaSer+Tech facilitando visualização e replicação do que foi passado e aplicado na aula
