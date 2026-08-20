@@ -111,7 +111,7 @@ Sou um desenvolvedor apaixonado por criar soluções inovadoras e eficientes. Mi
 
 **Idade da conta:** 3 anos  
 **Repositórios:** 82  
-**Commits:** 893  
+**Commits:** 899  
 **Stars recebidas:** 9  
 **Issues:** 0  
 **PRs:** 22  
@@ -131,12 +131,12 @@ Sou um desenvolvedor apaixonado por criar soluções inovadoras e eficientes. Mi
 
 ## 🧪 Tecnologias por uso
 
-- Python — 93.1%
+- Python — 93%
 - HTML — 2.8%
 - Cython — 2%
 - C — 0.6%
 - Java — 0.4%
-- Other — 0.8%
+- Other — 0.9%
 
 ---
 
