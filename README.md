@@ -145,8 +145,8 @@ Sou um desenvolvedor apaixonado por criar soluções inovadoras e eficientes. Mi
 Confira meus projetos mais recentes e relevantes:
 
 {{ REPOSITORIES_TEMPLATE_START:max=6 }}
-- [Nutrift](https://github.com/MarceloRodrigues1853/Nutrift) — ⭐ 1 • colaboração no projeto
 - [MarceloRodrigues1853](https://github.com/MarceloRodrigues1853/MarceloRodrigues1853) — ⭐ 0 • Config files for my GitHub profile.
+- [Nutrift](https://github.com/MarceloRodrigues1853/Nutrift) — ⭐ 1 • colaboração no projeto
 - [ada_go-desafio_pedidos](https://github.com/MarceloRodrigues1853/ada_go-desafio_pedidos) — ⭐ 0 • Repositório criado para o desevolvimento dos módulos  da formação em Go da ADA Ser+Tech Núclea. 
 - [go-oauth2-google](https://github.com/MarceloRodrigues1853/go-oauth2-google) — ⭐ 0 • Projeto desenvolvido para explorar os fluxos de delegação de acesso utilizando o padrão OAuth 2.0 e OpenID Connect na linguagem Go.
 - [tecnicas-programacao](https://github.com/MarceloRodrigues1853/tecnicas-programacao) — ⭐ 0 • Sem descrição
