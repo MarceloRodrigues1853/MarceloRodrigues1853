@@ -110,8 +110,8 @@ Sou um desenvolvedor apaixonado por criar soluções inovadoras e eficientes. Mi
 <td>
 
 **Idade da conta:** 3 anos  
-**Repositórios:** 83  
-**Commits:** 984  
+**Repositórios:** 84  
+**Commits:** 993  
 **Stars recebidas:** 9  
 **Issues:** 0  
 **PRs:** 36  
@@ -131,12 +131,12 @@ Sou um desenvolvedor apaixonado por criar soluções inovadoras e eficientes. Mi
 
 ## 🧪 Tecnologias por uso
 
-- Python — 93%
+- Python — 92.9%
 - HTML — 2.8%
 - Cython — 2%
 - C — 0.6%
 - Java — 0.4%
-- Other — 0.9%
+- Other — 1%
 
 ---
 
@@ -145,11 +145,11 @@ Sou um desenvolvedor apaixonado por criar soluções inovadoras e eficientes. Mi
 Confira meus projetos mais recentes e relevantes:
 
 {{ REPOSITORIES_TEMPLATE_START:max=6 }}
+- [jungle-gaming-backend-challenge](https://github.com/MarceloRodrigues1853/jungle-gaming-backend-challenge) — ⭐ 0 • Desafio técnico Backend Developer — Go (Jungle Gaming)
 - [MarceloRodrigues1853](https://github.com/MarceloRodrigues1853/MarceloRodrigues1853) — ⭐ 0 • Config files for my GitHub profile.
 - [ada_go-desafio_pedidos](https://github.com/MarceloRodrigues1853/ada_go-desafio_pedidos) — ⭐ 0 • Repositório criado para o desevolvimento dos módulos  da formação em Go da ADA Ser+Tech Núclea. 
 - [Nutrift](https://github.com/MarceloRodrigues1853/Nutrift) — ⭐ 1 • colaboração no projeto
 - [go-oauth2-google](https://github.com/MarceloRodrigues1853/go-oauth2-google) — ⭐ 0 • Projeto desenvolvido para explorar os fluxos de delegação de acesso utilizando o padrão OAuth 2.0 e OpenID Connect na linguagem Go.
-- [tecnicas-programacao](https://github.com/MarceloRodrigues1853/tecnicas-programacao) — ⭐ 0 • Sem descrição
 {{ REPOSITORIES_TEMPLATE_END }}
 
 ---
