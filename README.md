@@ -111,7 +111,7 @@ Sou um desenvolvedor apaixonado por criar soluções inovadoras e eficientes. Mi
 
 **Idade da conta:** 3 anos  
 **Repositórios:** 84  
-**Commits:** 1016  
+**Commits:** 1027  
 **Stars recebidas:** 9  
 **Issues:** 0  
 **PRs:** 37  
@@ -145,9 +145,9 @@ Sou um desenvolvedor apaixonado por criar soluções inovadoras e eficientes. Mi
 Confira meus projetos mais recentes e relevantes:
 
 {{ REPOSITORIES_TEMPLATE_START:max=6 }}
+- [ada_go-desafio_pedidos](https://github.com/MarceloRodrigues1853/ada_go-desafio_pedidos) — ⭐ 0 • Repositório criado para o desevolvimento dos módulos  da formação em Go da ADA Ser+Tech Núclea. 
 - [MarceloRodrigues1853](https://github.com/MarceloRodrigues1853/MarceloRodrigues1853) — ⭐ 0 • Config files for my GitHub profile.
 - [jungle-gaming-backend-challenge](https://github.com/MarceloRodrigues1853/jungle-gaming-backend-challenge) — ⭐ 0 • Desafio técnico Backend Developer — Go (Jungle Gaming)
-- [ada_go-desafio_pedidos](https://github.com/MarceloRodrigues1853/ada_go-desafio_pedidos) — ⭐ 0 • Repositório criado para o desevolvimento dos módulos  da formação em Go da ADA Ser+Tech Núclea. 
 - [Nutrift](https://github.com/MarceloRodrigues1853/Nutrift) — ⭐ 1 • colaboração no projeto
 - [go-oauth2-google](https://github.com/MarceloRodrigues1853/go-oauth2-google) — ⭐ 0 • Projeto desenvolvido para explorar os fluxos de delegação de acesso utilizando o padrão OAuth 2.0 e OpenID Connect na linguagem Go.
 {{ REPOSITORIES_TEMPLATE_END }}
