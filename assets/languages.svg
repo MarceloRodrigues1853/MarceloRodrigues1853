@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 278" width="520" height="278" role="img">
+<title>Linguagens principais por repositório</title>
+<rect width="520" height="278" rx="8" fill="#161b22"/>
+<text x="24" y="34" fill="#e6edf3" font-family="Arial,sans-serif" font-size="17" font-weight="bold">Linguagens principais por repositório</text>
+<text x="24" y="72" fill="#9da7b3" font-family="Arial,sans-serif" font-size="14">Java</text>
+<text x="496" y="72" text-anchor="end" fill="#79c0ff" font-family="Arial,sans-serif" font-size="14">25.8% · 17 repos</text>
+<text x="24" y="107" fill="#9da7b3" font-family="Arial,sans-serif" font-size="14">HTML</text>
+<text x="496" y="107" text-anchor="end" fill="#79c0ff" font-family="Arial,sans-serif" font-size="14">18.2% · 12 repos</text>
+<text x="24" y="142" fill="#9da7b3" font-family="Arial,sans-serif" font-size="14">JavaScript</text>
+<text x="496" y="142" text-anchor="end" fill="#79c0ff" font-family="Arial,sans-serif" font-size="14">16.7% · 11 repos</text>
+<text x="24" y="177" fill="#9da7b3" font-family="Arial,sans-serif" font-size="14">Python</text>
+<text x="496" y="177" text-anchor="end" fill="#79c0ff" font-family="Arial,sans-serif" font-size="14">13.6% · 9 repos</text>
+<text x="24" y="212" fill="#9da7b3" font-family="Arial,sans-serif" font-size="14">CSS</text>
+<text x="496" y="212" text-anchor="end" fill="#79c0ff" font-family="Arial,sans-serif" font-size="14">12.1% · 8 repos</text>
+<text x="24" y="247" fill="#9da7b3" font-family="Arial,sans-serif" font-size="14">Go</text>
+<text x="496" y="247" text-anchor="end" fill="#79c0ff" font-family="Arial,sans-serif" font-size="14">4.5% · 3 repos</text>
+</svg>

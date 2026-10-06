@@ -19,3 +19,7 @@ desktop.ini
 
 # Logs
 *.log
+
+# Cache local do Python
+__pycache__/
+*.pyc

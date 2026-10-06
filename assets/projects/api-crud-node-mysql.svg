@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" role="img"><title>Capa de apresentação: API CRUD de Usuários</title>
+<rect width="720" height="400" rx="12" fill="#161b22"/>
+<path d="M48 48H672" stroke="#3b82f6" stroke-width="3"/>
+<text x="48" y="94" fill="#9da7b3" font-family="Arial,sans-serif" font-size="20">PROJETO / DOCUMENTAÇÃO</text>
+<text x="48" y="175" fill="#79c0ff" font-family="Arial,sans-serif" font-size="40" font-weight="bold">API CRUD de Usuários</text>
+<text x="48" y="340" fill="#9da7b3" font-family="Arial,sans-serif" font-size="21">Node.js / Express / MySQL</text>
+</svg>

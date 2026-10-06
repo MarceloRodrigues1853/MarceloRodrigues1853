@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "owner": "MarceloRodrigues1853",
+  "name": "Marcelo Rodrigues",
+  "headline": "Desenvolvedor Full Stack | Estudante de Ciência da Computação",
+  "career_focus": "Desenvolvedor Back-end Júnior",
+  "contacts": {
+    "portfolio": "https://challenge-one-portfolio-nine.vercel.app/",
+    "linkedin": "https://www.linkedin.com/in/marcelorodriguesdev1853/",
+    "github": "https://github.com/MarceloRodrigues1853",
+    "instagram": "https://www.instagram.com/marcelo180886/",
+    "email": "mailto:marcelo180886@gmail.com"
+  },
+  "contact_badge_colors": {
+    "portfolio": "1D4ED8",
+    "linkedin": "0A66C2",
+    "instagram": "C13558",
+    "email": "C63D2D"
+  },
+  "about": [
+    "Sou estudante de Ciência da Computação na Anhanguera e desenvolvo projetos com Go, Java, JavaScript e Python. Minha prática envolve APIs REST, bancos relacionais e aplicações full stack, com atenção à organização do código, documentação e testes.",
+    "Busco minha primeira oportunidade como estagiário ou desenvolvedor back-end júnior. Valorizo comunicação clara, colaboração em equipe e aprendizado contínuo. Tenho interesse em arquitetura de software, DevOps, segurança e computação em nuvem."
+  ],
+  "professional_profile": [
+    "Organização do código, documentação e atenção à qualidade das entregas.",
+    "Responsabilidade, comunicação clara e colaboração em equipe.",
+    "Aprendizado contínuo com projetos, testes e revisão das soluções."
+  ],
+  "soft_skills": ["Proatividade", "Trabalho em equipe", "Comunicação", "Adaptação", "Foco em resultados"],
+  "stack": {
+    "Linguagens": ["Go", "Java", "JavaScript", "TypeScript", "Python", "SQL", "HTML5", "CSS3"],
+    "Frontend": ["React", "Vue.js", "Vite"],
+    "Backend": ["Node.js", "Spring Boot", "Express"],
+    "Banco de Dados": ["PostgreSQL", "MySQL", "TiDB Cloud"],
+    "Cloud & DevOps": ["Git", "GitHub", "Docker", "Linux", "AWS", "OCI", "Google Cloud", "GitHub Actions"],
+    "IA aplicada": ["CrewAI", "Gemini", "LangGraph", "RAG"],
+    "Segurança & Qualidade": ["OAuth 2.0", "OpenID Connect", "JWT", "Testes automatizados"],
+    "Monitoramento & Observabilidade": ["Prometheus", "Grafana"]
+  },
+  "badge_colors": {
+    "Go": "007D9C",
+    "Java": "B45309",
+    "JavaScript": "806600",
+    "TypeScript": "3178C6",
+    "Python": "3776AB",
+    "SQL": "336791",
+    "HTML5": "C2410C",
+    "CSS3": "1572B6",
+    "React": "166B86",
+    "Vue.js": "2E7D5B",
+    "Vite": "6D28D9",
+    "Node.js": "3C7630",
+    "Spring Boot": "426F19",
+    "Express": "353535",
+    "PostgreSQL": "336791",
+    "MySQL": "00618A",
+    "TiDB Cloud": "8C4A16",
+    "Git": "C43D22",
+    "GitHub": "24292F",
+    "Docker": "1769AA",
+    "Linux": "685400",
+    "AWS": "8A5100",
+    "OCI": "C74634",
+    "Google Cloud": "3367D6",
+    "GitHub Actions": "1B62B9",
+    "CrewAI": "9F2D29",
+    "Gemini": "5B4BC4",
+    "LangGraph": "1C4B41",
+    "RAG": "5C3A8C",
+    "OAuth 2.0": "376B4B",
+    "OpenID Connect": "9A5800",
+    "JWT": "994768",
+    "Testes automatizados": "28715C",
+    "Prometheus": "B64227",
+    "Grafana": "B45309"
+  },
+  "stack_notes": {
+    "IA aplicada": "Agentes de IA, orquestração de fluxos e recuperação de evidências documentais com RAG."
+  },
+  "education": [
+    "Bacharelado em Ciência da Computação — Anhanguera. Em andamento; conclusão prevista para outubro de 2027.",
+    "Ser+Tech Núclea — formações em Back-end Java e Go, Ada / Núclea, 2026.",
+    "Google Cybersecurity — Google / Coursera, 2025.",
+    "Ensino Médio — E.E.E.M Gomercinda Dornelles da Fontoura. Concluído."
+  ],
+  "featured_repositories": [
+    "ada_go-desafio_pedidos", "Nutrift", "projeto_filmes_aws",
+    "api-crud-node-mysql", "petcare-Hackathon_ONE", "calculadora-python-gui"
+  ],
+  "project_showcase": {
+    "ada_go-desafio_pedidos": {
+      "title": "Sistema de Pedidos em Go",
+      "description": "Pedidos, reserva de estoque e pagamentos fictícios com processamento assíncrono, painel web e tutor documental.",
+      "technologies": ["Go", "PostgreSQL", "RabbitMQ", "React", "RAG"],
+      "image": "assets/projects/pedidos.png",
+      "demo": "https://frontend-phi-ten-75.vercel.app/",
+      "details": [
+        "Saga compensa falhas de pagamento e devolve o estoque.",
+        "Camadas separam domínio, casos de uso e persistência.",
+        "O tutor documental indica fontes e recusa respostas sem evidência."
+      ],
+      "note": "A demo usa hospedagem gratuita; os serviços podem demorar na primeira chamada."
+    },
+    "Nutrift": {
+      "title": "NutriFit",
+      "description": "E-commerce demonstrativo com catálogo, cadastro, login e checkout simulado. Evolução de um projeto integrador em equipe.",
+      "technologies": ["Node.js", "Express", "TiDB Cloud", "JavaScript"],
+      "image": "assets/projects/nutrifit.png",
+      "demo": "https://projeto-integrador-lilac.vercel.app/",
+      "details": [
+        "Front-end, API e banco ficam em serviços independentes.",
+        "Senhas usam bcrypt; consultas são parametrizadas e a conexão com o banco usa TLS.",
+        "Testes de cadastro e autenticação usam conexão simulada."
+      ],
+      "note": "Produtos e pagamentos são demonstrativos. A API gratuita pode demorar na primeira chamada."
+    },
+    "projeto_filmes_aws": {
+      "title": "Projeto Filmes AWS",
+      "description": "Catálogo de filmes com autenticação JWT, avaliações e recomendações, desenvolvido no curso de Aprofundamento Cloud Proz + AWS.",
+      "technologies": ["React", "Node.js", "AWS", "Docker"],
+      "details": [
+        "MySQL no RDS e imagens no S3 separam dados e arquivos.",
+        "Containers em EC2, Nginx e HTTPS compõem a infraestrutura.",
+        "GitHub Actions automatiza build e atualização dos containers."
+      ]
+    },
+    "api-crud-node-mysql": {
+      "title": "API CRUD de Usuários",
+      "description": "API REST para criar, consultar, atualizar e remover usuários, com exemplos de execução e testes manuais no Postman.",
+      "technologies": ["Node.js", "Express", "MySQL"],
+      "details": [
+        "Connection pool reutiliza conexões com o MySQL.",
+        "Placeholders evitam concatenar entradas nas consultas SQL.",
+        "Rotas e conexão com o banco têm responsabilidades separadas."
+      ]
+    },
+    "petcare-Hackathon_ONE": {
+      "title": "PetCare — Hackathon ONE",
+      "description": "Plataforma de cuidados com pets da Equipe 2 — Brasil. Minha participação é descrita como integração e apoio full stack.",
+      "technologies": ["Java", "Spring Boot", "React", "MySQL", "Docker"],
+      "details": [
+        "Docker Compose organiza front-end, back-end e MySQL.",
+        "Swagger documenta os endpoints para a integração.",
+        "MVP educacional: login JWT e reservas constam como próximos passos na documentação consultada."
+      ]
+    },
+    "calculadora-python-gui": {
+      "title": "Calculadora Python",
+      "description": "Calculadora com interface gráfica e registro persistente das operações, acompanhada de guia de compilação.",
+      "technologies": ["Python", "Tkinter", "PyInstaller"],
+      "details": [
+        "Tkinter oferece uma interface desktop nativa.",
+        "O histórico é salvo em arquivo de texto com data e hora.",
+        "PyInstaller permite distribuir um executável."
+      ]
+    }
+  },
+  "recent_limit": 6,
+  "sources": [
+    "https://www.linkedin.com/in/marcelorodriguesdev1853/",
+    "https://github.com/MarceloRodrigues1853",
+    "C:/Projetos/challenge-ONE-portfolio/CONTENT_SOURCES.md"
+  ]
+}
