@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 173" width="520" height="173" role="img">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 313" width="520" height="313" role="img">
 <title>Estatísticas do GitHub</title>
-<rect width="520" height="173" rx="8" fill="#161b22"/>
+<rect width="520" height="313" rx="8" fill="#161b22"/>
 <text x="24" y="34" fill="#e6edf3" font-family="Arial,sans-serif" font-size="17" font-weight="bold">Estatísticas do GitHub</text>
 <text x="24" y="72" fill="#9da7b3" font-family="Arial,sans-serif" font-size="14">Idade da conta (anos completos)</text>
 <text x="496" y="72" text-anchor="end" fill="#79c0ff" font-family="Arial,sans-serif" font-size="14">3</text>
@@ -8,4 +8,12 @@
 <text x="496" y="107" text-anchor="end" fill="#79c0ff" font-family="Arial,sans-serif" font-size="14">94</text>
 <text x="24" y="142" fill="#9da7b3" font-family="Arial,sans-serif" font-size="14">Stars em repositórios próprios</text>
 <text x="496" y="142" text-anchor="end" fill="#79c0ff" font-family="Arial,sans-serif" font-size="14">9</text>
+<text x="24" y="177" fill="#9da7b3" font-family="Arial,sans-serif" font-size="14">Commits (últimos 12 meses)</text>
+<text x="496" y="177" text-anchor="end" fill="#79c0ff" font-family="Arial,sans-serif" font-size="14">273</text>
+<text x="24" y="212" fill="#9da7b3" font-family="Arial,sans-serif" font-size="14">Issues (últimos 12 meses)</text>
+<text x="496" y="212" text-anchor="end" fill="#79c0ff" font-family="Arial,sans-serif" font-size="14">0</text>
+<text x="24" y="247" fill="#9da7b3" font-family="Arial,sans-serif" font-size="14">Pull requests (últimos 12 meses)</text>
+<text x="496" y="247" text-anchor="end" fill="#79c0ff" font-family="Arial,sans-serif" font-size="14">28</text>
+<text x="24" y="282" fill="#9da7b3" font-family="Arial,sans-serif" font-size="14">Reviews (últimos 12 meses)</text>
+<text x="496" y="282" text-anchor="end" fill="#79c0ff" font-family="Arial,sans-serif" font-size="14">8</text>
 </svg>

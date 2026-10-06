@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "owner": "MarceloRodrigues1853",
-  "collected_at": "2026-10-06T13:53:09+00:00",
+  "collected_at": "2026-10-06T17:46:35+00:00",
   "profile": {
     "name": "Marcelo Rodrigues",
     "headline": "Desenvolvedor Full Stack | Estudante de Ciência da Computação",
@@ -26,34 +26,41 @@
     "account_age_years": 3,
     "public_repositories": 94,
     "stars": 9,
-    "contributions": null
+    "contributions": {
+      "startedAt": "2025-10-05T03:00:00Z",
+      "endedAt": "2026-10-07T02:59:59Z",
+      "totalCommitContributions": 273,
+      "totalIssueContributions": 0,
+      "totalPullRequestContributions": 28,
+      "totalPullRequestReviewContributions": 8
+    }
   },
   "language_basis": "primary_language_per_public_nonfork_repository",
   "languages": [
     {
       "name": "Java",
       "repositories": 17,
-      "percent": 25.8
+      "percent": 25.4
     },
     {
       "name": "HTML",
       "repositories": 12,
-      "percent": 18.2
+      "percent": 17.9
     },
     {
       "name": "JavaScript",
       "repositories": 11,
-      "percent": 16.7
+      "percent": 16.4
     },
     {
       "name": "Python",
-      "repositories": 9,
-      "percent": 13.6
+      "repositories": 10,
+      "percent": 14.9
     },
     {
       "name": "CSS",
       "repositories": 8,
-      "percent": 12.1
+      "percent": 11.9
     },
     {
       "name": "Go",
@@ -836,10 +843,10 @@
       "full_name": "MarceloRodrigues1853/MarceloRodrigues1853",
       "url": "https://github.com/MarceloRodrigues1853/MarceloRodrigues1853",
       "description": "Config files for my GitHub profile.",
-      "language": null,
+      "language": "Python",
       "stars": 0,
-      "pushed_at": "2026-10-03T15:35:11Z",
-      "updated_at": "2026-10-03T15:35:15Z",
+      "pushed_at": "2026-10-06T15:19:16Z",
+      "updated_at": "2026-10-06T15:19:22Z",
       "fork": false,
       "archived": false
     },

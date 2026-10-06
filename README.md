@@ -258,11 +258,11 @@ Dados consultados em **2026-10-06**. Repositórios públicos incluem forks; star
 
 ### Tecnologias por uso
 
-- **Java** — 25.8% (17 repositórios)
-- **HTML** — 18.2% (12 repositórios)
-- **JavaScript** — 16.7% (11 repositórios)
-- **Python** — 13.6% (9 repositórios)
-- **CSS** — 12.1% (8 repositórios)
+- **Java** — 25.4% (17 repositórios)
+- **HTML** — 17.9% (12 repositórios)
+- **JavaScript** — 16.4% (11 repositórios)
+- **Python** — 14.9% (10 repositórios)
+- **CSS** — 11.9% (8 repositórios)
 - **Go** — 4.5% (3 repositórios)
 
 Percentuais calculados pela quantidade de repositórios públicos próprios com cada linguagem principal. A lista mostra até seis linguagens; não representa proficiência ou volume de código.
