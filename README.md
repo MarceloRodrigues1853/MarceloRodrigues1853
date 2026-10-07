@@ -252,7 +252,7 @@ Projetos próprios atualizados automaticamente, sem incluir forks, repositórios
 
 </div>
 
-Dados consultados em **2026-10-06**. Repositórios públicos incluem forks; stars são somadas apenas nos projetos próprios. Quando disponíveis, commits, issues, PRs e reviews representam contribuições dos últimos 12 meses retornadas pelo GitHub.
+Dados consultados em **2026-10-07**. Repositórios públicos incluem forks; stars são somadas apenas nos projetos próprios. Quando disponíveis, commits, issues, PRs e reviews representam contribuições dos últimos 12 meses retornadas pelo GitHub.
 
 [Consultar contribuições no perfil](https://github.com/MarceloRodrigues1853?tab=overview)
 
