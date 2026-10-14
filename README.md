@@ -213,6 +213,9 @@ Essa experiência contribui com responsabilidade, gestão de tempo e organizaç�
 
 Projetos próprios atualizados automaticamente, sem incluir forks, repositórios arquivados ou este repositório de perfil.
 
+- **[mini-core-api](https://github.com/MarceloRodrigues1853/mini-core-api)** — Projeto criado pra treinar e aplicar conceitos de desenvolvimento do incio ate a entrega final
+  Linguagem principal: não informada · Stars: 0 · Último push: 2026-10-13
+
 - **[challenge-ONE-portfolio](https://github.com/MarceloRodrigues1853/challenge-ONE-portfolio)** — repositório criado como parte de desafio de projeto da Formação Front-End\_ONT6 Alura
   Linguagem principal: HTML · Stars: 0 · Último push: 2026-10-05
 
@@ -226,9 +229,6 @@ Projetos próprios atualizados automaticamente, sem incluir forks, repositórios
   Linguagem principal: Go · Stars: 0 · Último push: 2026-07-20
 
 - **[ada-java-programacao-web-2-exercicios](https://github.com/MarceloRodrigues1853/ada-java-programacao-web-2-exercicios)** — Repositório criado para fins de estudo e compartilhamento de codigos e exercicos proprostos na aulas de progaramção web faciliatando a replicação e entendimento do modulo
-  Linguagem principal: Java · Stars: 0 · Último push: 2026-06-04
-
-- **[api\_books\_java](https://github.com/MarceloRodrigues1853/api_books_java)** — API RESTful desenvolvida em Java e Spring Boot com implementação de Spring Security. Projeto criado com fins puramente acadêmicos para estudo prático, consulta e compartilhamento de código.
   Linguagem principal: Java · Stars: 0 · Último push: 2026-06-04
 
 [Ver todos os repositórios](https://github.com/MarceloRodrigues1853?tab=repositories)
@@ -252,7 +252,7 @@ Projetos próprios atualizados automaticamente, sem incluir forks, repositórios
 
 </div>
 
-Dados consultados em **2026-10-13**. Repositórios públicos incluem forks; stars são somadas apenas nos projetos próprios. Quando disponíveis, commits, issues, PRs e reviews representam contribuições dos últimos 12 meses retornadas pelo GitHub.
+Dados consultados em **2026-10-14**. Repositórios públicos incluem forks; stars são somadas apenas nos projetos próprios. Quando disponíveis, commits, issues, PRs e reviews representam contribuições dos últimos 12 meses retornadas pelo GitHub.
 
 [Consultar contribuições no perfil](https://github.com/MarceloRodrigues1853?tab=overview)
 
