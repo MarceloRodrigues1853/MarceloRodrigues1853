@@ -214,7 +214,7 @@ Essa experiência contribui com responsabilidade, gestão de tempo e organizaç�
 Projetos próprios atualizados automaticamente, sem incluir forks, repositórios arquivados ou este repositório de perfil.
 
 - **[mini-core-api](https://github.com/MarceloRodrigues1853/mini-core-api)** — Projeto criado pra treinar e aplicar conceitos de desenvolvimento do incio ate a entrega final
-  Linguagem principal: não informada · Stars: 0 · Último push: 2026-10-13
+  Linguagem principal: JavaScript · Stars: 0 · Último push: 2026-10-14
 
 - **[challenge-ONE-portfolio](https://github.com/MarceloRodrigues1853/challenge-ONE-portfolio)** — repositório criado como parte de desafio de projeto da Formação Front-End\_ONT6 Alura
   Linguagem principal: HTML · Stars: 0 · Último push: 2026-10-05
@@ -252,18 +252,18 @@ Projetos próprios atualizados automaticamente, sem incluir forks, repositórios
 
 </div>
 
-Dados consultados em **2026-10-14**. Repositórios públicos incluem forks; stars são somadas apenas nos projetos próprios. Quando disponíveis, commits, issues, PRs e reviews representam contribuições dos últimos 12 meses retornadas pelo GitHub.
+Dados consultados em **2026-10-15**. Repositórios públicos incluem forks; stars são somadas apenas nos projetos próprios. Quando disponíveis, commits, issues, PRs e reviews representam contribuições dos últimos 12 meses retornadas pelo GitHub.
 
 [Consultar contribuições no perfil](https://github.com/MarceloRodrigues1853?tab=overview)
 
 ### Tecnologias por uso
 
-- **Java** — 25.4% (17 repositórios)
-- **HTML** — 17.9% (12 repositórios)
-- **JavaScript** — 16.4% (11 repositórios)
-- **Python** — 14.9% (10 repositórios)
-- **CSS** — 11.9% (8 repositórios)
-- **Go** — 4.5% (3 repositórios)
+- **Java** — 25.0% (17 repositórios)
+- **HTML** — 17.6% (12 repositórios)
+- **JavaScript** — 17.6% (12 repositórios)
+- **Python** — 14.7% (10 repositórios)
+- **CSS** — 11.8% (8 repositórios)
+- **Go** — 4.4% (3 repositórios)
 
 Percentuais calculados pela quantidade de repositórios públicos próprios com cada linguagem principal. A lista mostra até seis linguagens; não representa proficiência ou volume de código.
 
