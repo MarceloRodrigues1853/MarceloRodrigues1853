@@ -213,11 +213,11 @@ Essa experiência contribui com responsabilidade, gestão de tempo e organizaç�
 
 Projetos próprios atualizados automaticamente, sem incluir forks, repositórios arquivados ou este repositório de perfil.
 
+- **[challenge-ONE-portfolio](https://github.com/MarceloRodrigues1853/challenge-ONE-portfolio)** — repositório criado como parte de desafio de projeto da Formação Front-End\_ONT6 Alura
+  Linguagem principal: HTML · Stars: 0 · Último push: 2026-10-27
+
 - **[mini-core-api](https://github.com/MarceloRodrigues1853/mini-core-api)** — Projeto criado pra treinar e aplicar conceitos de desenvolvimento do incio ate a entrega final
   Linguagem principal: JavaScript · Stars: 0 · Último push: 2026-10-14
-
-- **[challenge-ONE-portfolio](https://github.com/MarceloRodrigues1853/challenge-ONE-portfolio)** — repositório criado como parte de desafio de projeto da Formação Front-End\_ONT6 Alura
-  Linguagem principal: HTML · Stars: 0 · Último push: 2026-10-05
 
 - **[ada\_go-desafio\_pedidos](https://github.com/MarceloRodrigues1853/ada_go-desafio_pedidos)** — Repositório criado para o desevolvimento dos módulos da formação em Go da ADA Ser+Tech Núclea.
   Linguagem principal: Go · Stars: 0 · Último push: 2026-10-02
@@ -252,7 +252,7 @@ Projetos próprios atualizados automaticamente, sem incluir forks, repositórios
 
 </div>
 
-Dados consultados em **2026-10-26**. Repositórios públicos incluem forks; stars são somadas apenas nos projetos próprios. Quando disponíveis, commits, issues, PRs e reviews representam contribuições dos últimos 12 meses retornadas pelo GitHub.
+Dados consultados em **2026-10-27**. Repositórios públicos incluem forks; stars são somadas apenas nos projetos próprios. Quando disponíveis, commits, issues, PRs e reviews representam contribuições dos últimos 12 meses retornadas pelo GitHub.
 
 [Consultar contribuições no perfil](https://github.com/MarceloRodrigues1853?tab=overview)
 
