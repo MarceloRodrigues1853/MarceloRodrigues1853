@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "owner": "MarceloRodrigues1853",
-  "collected_at": "2026-10-27T17:16:03+00:00",
+  "collected_at": "2026-10-28T17:47:35+00:00",
   "profile": {
     "name": "Marcelo Rodrigues",
     "headline": "Desenvolvedor Full Stack | Estudante de Ciência da Computação",
@@ -28,10 +28,10 @@
     "stars": 9,
     "contributions": {
       "startedAt": "2025-10-26T03:00:00Z",
-      "endedAt": "2026-10-28T02:59:59Z",
-      "totalCommitContributions": 277,
+      "endedAt": "2026-10-29T02:59:59Z",
+      "totalCommitContributions": 287,
       "totalIssueContributions": 0,
-      "totalPullRequestContributions": 33,
+      "totalPullRequestContributions": 38,
       "totalPullRequestReviewContributions": 8
     }
   },
@@ -43,12 +43,12 @@
       "percent": 25.0
     },
     {
-      "name": "HTML",
-      "repositories": 12,
-      "percent": 17.6
+      "name": "JavaScript",
+      "repositories": 13,
+      "percent": 19.1
     },
     {
-      "name": "JavaScript",
+      "name": "HTML",
       "repositories": 12,
       "percent": 17.6
     },
@@ -59,8 +59,8 @@
     },
     {
       "name": "CSS",
-      "repositories": 8,
-      "percent": 11.8
+      "repositories": 7,
+      "percent": 10.3
     },
     {
       "name": "Go",
@@ -353,8 +353,8 @@
       "description": "repositório criado como parte de desafio de projeto da Formação Front-End_ONT6 Alura",
       "language": "HTML",
       "stars": 0,
-      "pushed_at": "2026-10-27T14:03:18Z",
-      "updated_at": "2026-10-27T14:03:24Z",
+      "pushed_at": "2026-10-27T20:30:10Z",
+      "updated_at": "2026-10-27T20:30:16Z",
       "fork": false,
       "archived": false
     },
@@ -845,8 +845,8 @@
       "description": "Config files for my GitHub profile.",
       "language": "Python",
       "stars": 0,
-      "pushed_at": "2026-10-26T18:05:33Z",
-      "updated_at": "2026-10-26T18:05:37Z",
+      "pushed_at": "2026-10-27T17:16:09Z",
+      "updated_at": "2026-10-27T17:16:15Z",
       "fork": false,
       "archived": false
     },
@@ -1119,10 +1119,10 @@
       "full_name": "MarceloRodrigues1853/simulador-piano",
       "url": "https://github.com/MarceloRodrigues1853/simulador-piano",
       "description": "# Simulador de Piano -  Bem-vindo ao projeto Simulador de Piano com JavaScript! ",
-      "language": "CSS",
+      "language": "JavaScript",
       "stars": 2,
-      "pushed_at": "2024-04-16T19:28:00Z",
-      "updated_at": "2023-11-17T18:54:35Z",
+      "pushed_at": "2026-10-27T19:46:30Z",
+      "updated_at": "2026-10-27T19:46:27Z",
       "fork": false,
       "archived": false
     },

@@ -216,6 +216,9 @@ Projetos próprios atualizados automaticamente, sem incluir forks, repositórios
 - **[challenge-ONE-portfolio](https://github.com/MarceloRodrigues1853/challenge-ONE-portfolio)** — repositório criado como parte de desafio de projeto da Formação Front-End\_ONT6 Alura
   Linguagem principal: HTML · Stars: 0 · Último push: 2026-10-27
 
+- **[simulador-piano](https://github.com/MarceloRodrigues1853/simulador-piano)** — # Simulador de Piano - Bem-vindo ao projeto Simulador de Piano com JavaScript!
+  Linguagem principal: JavaScript · Stars: 2 · Último push: 2026-10-27
+
 - **[mini-core-api](https://github.com/MarceloRodrigues1853/mini-core-api)** — Projeto criado pra treinar e aplicar conceitos de desenvolvimento do incio ate a entrega final
   Linguagem principal: JavaScript · Stars: 0 · Último push: 2026-10-14
 
@@ -227,9 +230,6 @@ Projetos próprios atualizados automaticamente, sem incluir forks, repositórios
 
 - **[go-oauth2-google](https://github.com/MarceloRodrigues1853/go-oauth2-google)** — Projeto desenvolvido para explorar os fluxos de delegação de acesso utilizando o padrão OAuth 2.0 e OpenID Connect na linguagem Go.
   Linguagem principal: Go · Stars: 0 · Último push: 2026-07-20
-
-- **[ada-java-programacao-web-2-exercicios](https://github.com/MarceloRodrigues1853/ada-java-programacao-web-2-exercicios)** — Repositório criado para fins de estudo e compartilhamento de codigos e exercicos proprostos na aulas de progaramção web faciliatando a replicação e entendimento do modulo
-  Linguagem principal: Java · Stars: 0 · Último push: 2026-06-04
 
 [Ver todos os repositórios](https://github.com/MarceloRodrigues1853?tab=repositories)
 
@@ -252,17 +252,17 @@ Projetos próprios atualizados automaticamente, sem incluir forks, repositórios
 
 </div>
 
-Dados consultados em **2026-10-27**. Repositórios públicos incluem forks; stars são somadas apenas nos projetos próprios. Quando disponíveis, commits, issues, PRs e reviews representam contribuições dos últimos 12 meses retornadas pelo GitHub.
+Dados consultados em **2026-10-28**. Repositórios públicos incluem forks; stars são somadas apenas nos projetos próprios. Quando disponíveis, commits, issues, PRs e reviews representam contribuições dos últimos 12 meses retornadas pelo GitHub.
 
 [Consultar contribuições no perfil](https://github.com/MarceloRodrigues1853?tab=overview)
 
 ### Tecnologias por uso
 
 - **Java** — 25.0% (17 repositórios)
+- **JavaScript** — 19.1% (13 repositórios)
 - **HTML** — 17.6% (12 repositórios)
-- **JavaScript** — 17.6% (12 repositórios)
 - **Python** — 14.7% (10 repositórios)
-- **CSS** — 11.8% (8 repositórios)
+- **CSS** — 10.3% (7 repositórios)
 - **Go** — 4.4% (3 repositórios)
 
 Percentuais calculados pela quantidade de repositórios públicos próprios com cada linguagem principal. A lista mostra até seis linguagens; não representa proficiência ou volume de código.
