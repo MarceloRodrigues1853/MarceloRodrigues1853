@@ -213,11 +213,14 @@ Essa experiência contribui com responsabilidade, gestão de tempo e organizaç�
 
 Projetos próprios atualizados automaticamente, sem incluir forks, repositórios arquivados ou este repositório de perfil.
 
+- **[simulador-piano](https://github.com/MarceloRodrigues1853/simulador-piano)** — # Simulador de Piano - Bem-vindo ao projeto Simulador de Piano com JavaScript!
+  Linguagem principal: JavaScript · Stars: 2 · Último push: 2026-11-04
+
+- **[artefact-ai-engineer](https://github.com/MarceloRodrigues1853/artefact-ai-engineer)** — Python customer service agent for Empório da Música — Artefact AI Engineer challenge.
+  Linguagem principal: Python · Stars: 0 · Último push: 2026-11-03
+
 - **[challenge-ONE-portfolio](https://github.com/MarceloRodrigues1853/challenge-ONE-portfolio)** — repositório criado como parte de desafio de projeto da Formação Front-End\_ONT6 Alura
   Linguagem principal: HTML · Stars: 0 · Último push: 2026-10-27
-
-- **[simulador-piano](https://github.com/MarceloRodrigues1853/simulador-piano)** — # Simulador de Piano - Bem-vindo ao projeto Simulador de Piano com JavaScript!
-  Linguagem principal: JavaScript · Stars: 2 · Último push: 2026-10-27
 
 - **[mini-core-api](https://github.com/MarceloRodrigues1853/mini-core-api)** — Projeto criado pra treinar e aplicar conceitos de desenvolvimento do incio ate a entrega final
   Linguagem principal: JavaScript · Stars: 0 · Último push: 2026-10-14
@@ -227,9 +230,6 @@ Projetos próprios atualizados automaticamente, sem incluir forks, repositórios
 
 - **[jungle-gaming-backend-challenge](https://github.com/MarceloRodrigues1853/jungle-gaming-backend-challenge)** — Desafio técnico Backend Developer — Go (Jungle Gaming)
   Linguagem principal: Go · Stars: 0 · Último push: 2026-09-27
-
-- **[go-oauth2-google](https://github.com/MarceloRodrigues1853/go-oauth2-google)** — Projeto desenvolvido para explorar os fluxos de delegação de acesso utilizando o padrão OAuth 2.0 e OpenID Connect na linguagem Go.
-  Linguagem principal: Go · Stars: 0 · Último push: 2026-07-20
 
 [Ver todos os repositórios](https://github.com/MarceloRodrigues1853?tab=repositories)
 
@@ -252,18 +252,18 @@ Projetos próprios atualizados automaticamente, sem incluir forks, repositórios
 
 </div>
 
-Dados consultados em **2026-11-03**. Repositórios públicos incluem forks; stars são somadas apenas nos projetos próprios. Quando disponíveis, commits, issues, PRs e reviews representam contribuições dos últimos 12 meses retornadas pelo GitHub.
+Dados consultados em **2026-11-04**. Repositórios públicos incluem forks; stars são somadas apenas nos projetos próprios. Quando disponíveis, commits, issues, PRs e reviews representam contribuições dos últimos 12 meses retornadas pelo GitHub.
 
 [Consultar contribuições no perfil](https://github.com/MarceloRodrigues1853?tab=overview)
 
 ### Tecnologias por uso
 
-- **Java** — 25.0% (17 repositórios)
-- **JavaScript** — 19.1% (13 repositórios)
-- **HTML** — 17.6% (12 repositórios)
-- **Python** — 14.7% (10 repositórios)
-- **CSS** — 10.3% (7 repositórios)
-- **Go** — 4.4% (3 repositórios)
+- **Java** — 24.6% (17 repositórios)
+- **JavaScript** — 18.8% (13 repositórios)
+- **HTML** — 17.4% (12 repositórios)
+- **Python** — 15.9% (11 repositórios)
+- **CSS** — 10.1% (7 repositórios)
+- **Go** — 4.3% (3 repositórios)
 
 Percentuais calculados pela quantidade de repositórios públicos próprios com cada linguagem principal. A lista mostra até seis linguagens; não representa proficiência ou volume de código.
 
